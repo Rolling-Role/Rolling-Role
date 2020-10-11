@@ -6,7 +6,7 @@
 ### 🍰 < 웹 버전 >
 <img src="https://user-images.githubusercontent.com/47634717/95678367-36492600-0c07-11eb-9437-578ed04c0b24.png" width="80%"/><br/>
 <img src="https://user-images.githubusercontent.com/47634717/95678466-b96a7c00-0c07-11eb-995e-68218548ce4f.png" width="80%"/><br/>
-<img src="https://user-images.githubusercontent.com/47634717/95679129-b4a7c700-0c0b-11eb-89a3-58ff1cc55a87.png" width="80%"/>
+<img src="https://user-images.githubusercontent.com/47634717/95679129-b4a7c700-0c0b-11eb-89a3-58ff1cc55a87.png" width="80%"/><br/>
 <hr/>
 
 ### 🍰 < 해시태그 버전 >
