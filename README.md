@@ -7,6 +7,7 @@
   <img src="https://user-images.githubusercontent.com/47634717/95693332-c36f9780-0c66-11eb-968b-ee68e1ed88b3.png" width="24%"/>
 </div>
 <hr/>
+<br/>
 ### 🍰 < 웹 버전 >
 <div>
   <img src="https://user-images.githubusercontent.com/47634717/95678367-36492600-0c07-11eb-9437-578ed04c0b24.png" width="49%"/>
@@ -14,4 +15,3 @@
   <img src="https://user-images.githubusercontent.com/47634717/95679129-b4a7c700-0c0b-11eb-89a3-58ff1cc55a87.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/95693331-c23e6a80-0c66-11eb-8562-15a106f69382.png" width="49%"/>
 </div>
-<hr/>
