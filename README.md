@@ -13,9 +13,9 @@
 
 ### 🍰 < 해시태그 버전 >
 <div>
-  <img src="https://user-images.githubusercontent.com/47634717/95678474-ca1af200-0c07-11eb-8042-19d22df64279.png" width="30%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/95678538-49a8c100-0c08-11eb-9b62-55cdfc98a0fa.png" width="30%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/95693330-c10d3d80-0c66-11eb-8c23-d0f52caffa0e.png" width="30%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/95693332-c36f9780-0c66-11eb-968b-ee68e1ed88b3.png" width="30%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/95678474-ca1af200-0c07-11eb-8042-19d22df64279.png" width="25%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/95678538-49a8c100-0c08-11eb-9b62-55cdfc98a0fa.png" width="25%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/95693330-c10d3d80-0c66-11eb-8c23-d0f52caffa0e.png" width="25%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/95693332-c36f9780-0c66-11eb-968b-ee68e1ed88b3.png" width="25%"/>
 </div>
 
