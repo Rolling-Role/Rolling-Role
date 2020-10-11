@@ -6,8 +6,7 @@
   <img src="https://user-images.githubusercontent.com/47634717/95693330-c10d3d80-0c66-11eb-8c23-d0f52caffa0e.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/95693332-c36f9780-0c66-11eb-968b-ee68e1ed88b3.png" width="24%"/>
 </div>
-<hr/>
-<br/>
+
 ### 🍰 < 웹 버전 >
 <div>
   <img src="https://user-images.githubusercontent.com/47634717/95678367-36492600-0c07-11eb-9437-578ed04c0b24.png" width="49%"/>
