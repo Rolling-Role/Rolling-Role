@@ -14,8 +14,6 @@
   <img src="https://user-images.githubusercontent.com/47634717/95679129-b4a7c700-0c0b-11eb-89a3-58ff1cc55a87.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/95693326-bfdc1080-0c66-11eb-9a83-261e2fe8f42c.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/95693331-c23e6a80-0c66-11eb-8562-15a106f69382.png" width="49%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/95678757-a658ab80-0c09-11eb-83b4-6a1398db3521.png" width="49%"/>
 </div>
-<hr/>
-### 🍰 < 전체 >
-<img src="https://user-images.githubusercontent.com/47634717/95678757-a658ab80-0c09-11eb-83b4-6a1398db3521.png" width="100%"/>
 <hr/>
