@@ -15,6 +15,3 @@
   <img src="https://user-images.githubusercontent.com/47634717/95693331-c23e6a80-0c66-11eb-8562-15a106f69382.png" width="49%"/>
 </div>
 <hr/>
-### 🍰 < 전체 >
-  <img src="https://user-images.githubusercontent.com/47634717/95678757-a658ab80-0c09-11eb-83b4-6a1398db3521.png" width="49%"/>
-<hr/>
