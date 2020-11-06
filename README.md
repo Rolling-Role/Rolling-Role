@@ -39,4 +39,5 @@
 🍭 첫회전시 잘 안도는 경향이 있어 rolling role에 맞게 첫회전에도 많이 돌도록 transform 변경<br/>
 <img src="https://user-images.githubusercontent.com/47634717/98327064-0e968380-2036-11eb-8f26-4bea6e63ee18.png" width="40%"/><br/><br/>
 #### 2. 투표시스템 <br/>
-### [ 🙋‍♀️투표시스템 오픈소스 바로가기](https://github.com/sekharpasem/VotingSystem)<br/>   
+### [🙋‍♀️ 투표시스템 오픈소스 바로가기](https://github.com/sekharpasem/VotingSystem)<br/>
+
