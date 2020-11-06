@@ -1,5 +1,5 @@
-#wrap {max-width:500px; min-width:500px;height: 500px; }
-#diceBox {max-width: 500px; min-width:500px;width: 90vw; height: auto; background-color:transparent; border-radius: 10px; box-shadow: 0px 0px 0px rgba(0,0,0,0.0); padding: 40px; box-sizing: border-box; }
+#wrap {max-width:100%; min-width:500px;height: 500px; }
+#diceBox {max-width: 100%; min-width:500px;width: 90vw; height: auto; background-color:transparent; border-radius: 10px; box-shadow: 0px 0px 0px rgba(0,0,0,0.0); padding: 40px; box-sizing: border-box; }
 #diceBox > .dice_wrap {position:relative; width: 100%; height: auto; display: flex; margin-bottom: 20px;}
 #diceBox > .dice_wrap > [class^=dice]:last-of-type {margin-right: 0px;}
 /* 주사위 만들기 */
