@@ -1,0 +1,46 @@
+body{background-color: #FFF2CC;min-width:800px;overflow: hidden;}
+#title{position:relative;width:8%; min-width:100px; margin-left:46%;margin-top:1%; margin-bottom: 2%;}
+.innerframe{position:relative;
+            background-color:#FFFFFF;
+            /* background-image:url('../rollingrole_images/dice_background_pattern.png'); */
+            border:#FFFFFF solid 1px;
+            width:80%;min-height:650px;
+            margin-left:10%;padding-top:6px;
+            margin-top:0%;}
+.tab{color:#858072;
+    padding:4px;
+    position:relative;
+    margin:2%;}
+.tab:hover{background-color:rgb(236, 255, 197);}
+/* #leader_tab{background-color: rgb(236, 255, 197);} */
+#role_tab{background-color: rgb(236, 255, 197);}
+hr{height:0;border:none;border-top:#acacac 1px solid}
+#guide{color:#858072;margin-left:2%;}
+
+.arrow{margin:1%;}
+#arrow_left{position: relative;float:left;}
+.mainarea{position: relative;float:left;
+          border : 1px solid #FFE1D2;
+          background-color:#FFFEF2;
+          width:90%; margin-left:1%;
+          min-height:500px;height:25vw; }
+.firstline{position: relative;float:left;width:100%;}
+.secondline{position: relative;float:left;width:100%;}
+.labelarea{display:inline}
+.check{position:relative;float:left;
+             width:4%;margin-top:2.5%;margin-left:2%;margin-right:1%}
+.name_label_yellow{position:relative;float:left;width:17%;margin-top:2%;margin-bottom:5%;margin-left:-1%;}
+.role_name{position:relative;float:left;z-index:100;color:#858585;
+            font-weight:500;font-size:1.2vw;
+            margin-top:3.2%}
+#role_name1{margin-left:-21.5%}
+#role_name2{margin-left:-20.8%;}
+#role_name3{margin-left:-19.5%}
+#role_name4{margin-left:-20%}
+#role_name5{margin-left:-19%;margin-top:3%;font-size:1.5vw}
+.number_box{position: relative;float:left;
+              width:4%;margin-top:2.5%}
+.label_input{position: relative;float:left;
+             color:#acacac;font-weight:500;
+             font-size:1vw; margin-top:3.2%;margin-right:4%;}
+#arrow_right{position: relative;float:right;}
