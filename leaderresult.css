@@ -1,0 +1,17 @@
+body{background-color: #FFF2CC;min-width:800px;}
+#title{position: relative; width:8%; min-width:100px; margin-left:46%;margin-top:1%; margin-bottom: 2%}
+.innerframe{position:relative;
+    background-color:#FFFFFF;
+    background-image: url('back2.png'); 
+    border:#FFFFFF solid 1px;
+    width:80%;min-height:650px;
+    margin-left:10%;padding-top:6px;
+    margin-top:0%;}
+.tab{color:#858072;
+    padding:4px;
+    position:relative;
+    margin:2%;}    
+#congratulation_left{float: left;margin-left:28%;margin-top: 8%;}
+#congratulation_right{float: right;margin-right: 27%;margin-top: 8%;}
+#vote{float: left;width:15%;}
+#name_label_white{float:right;margin-right: 39%;margin-top: -35%;}
