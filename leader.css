@@ -1,0 +1,24 @@
+body{background-color: #FFF2CC;min-width:800px;}
+.title { text-align: center;}
+.innerframe {position:relative;
+            background-color: #FFFFFF;
+            border:#FFFFFF solid 1px; 
+            width:80%; min-height:650px;
+            margin-left:10%; padding-top:6px;
+            margin-top:0% 
+            }
+.tab {color:#858072;
+      padding:4px;
+      position:relative;
+      margin:2%;
+     }
+.firstline {position:relative; float:left; width:100%; margin-left:15%; margin-top:10%;}
+.secondline {position:relative; float:left; width:100%; margin-left:15%; margin-top:10%;}
+.labelarea {display:inline;}
+.name_label_white {position: relative; float:left; width:17%; margin-bottom:5%;  margin-right:10%;}
+.role_name {position: relative; float:left; z-index:100; color:#858585; margin-left:-19.5%; margin-top:1%;
+            font-weight:500; font-size:1.5vw;} 
+.start {display:inline; margin-top:-20%; margin-left:85%;}
+           
+
+
