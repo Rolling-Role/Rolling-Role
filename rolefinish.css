@@ -1,0 +1,31 @@
+body{background-color: #FFF2CC;min-width:800px;}
+#title{position: relative; width:8%; min-width:100px; margin-left:46%;margin-top:1%; margin-bottom: 2%}
+#restart_hover{position: relative; float: right; margin-top:-8%;margin-right: 3%;}
+.innerframe{position:relative;
+    background-color:#FFFFFF;
+    border:#FFFFFF solid 1px;
+    width:80%;min-height:650px;
+    margin-left:10%;padding-top:6px;
+    margin-top:0%;}
+.tab{color:#858072;
+    padding:4px;
+    position:relative;
+    margin:2%;}   
+.firstline{position: relative; float:left;width:100%; margin-left: 3%; margin-top: 3%;}
+.secondline{position: relative;float:left;width:100%; margin-left: 3%;}
+.labelarea{display:inline}
+.name_label_white{position:relative;float:left;width:17%;margin-top:2%;margin-bottom:5%;margin-right: 8%;}
+.teamname{position:relative;float:left;z-index:100;color:#858585;
+    font-weight:500;font-size:1.2vw;
+    margin-top:3.2%}
+#name1{margin-left:-20.5%}
+#name2{margin-left:-20.5%;}
+#name3{margin-left:-20.5%}
+#name4{margin-left:-20.5%}
+#name5{margin-left:-20.5%}
+#name6{margin-left:-20.5%;}
+#name7{margin-left:-20.5%}
+#name8{margin-left:-17%;margin-top:3%;font-size:1.5vw}
+.diamond_set{position:relative;float:left;margin-top:10%;margin-bottom:5%;margin-left: -25%;}
+.role{position:relative;float:left;margin-top:10.2%;margin-bottom:5%;margin-left: -22%;}
+.subrole{position:relative;float:left;margin-top:14.8%;margin-bottom:5%;margin-left: -22%;}
