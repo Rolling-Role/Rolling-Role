@@ -1,4 +1,4 @@
-body{background-color: #FFF2CC;min-width:800px;overflow: hidden;}
+body{background-color: #FFF2CC;min-width:900px;overflow: hidden;}
 #title{position:relative;width:8%; min-width:100px; margin-left:46%;margin-top:1%; margin-bottom: 2%;}
 .innerframe{position:relative;
             background-color:#FFFFFF;
@@ -26,21 +26,70 @@ hr{height:0;border:none;border-top:#acacac 1px solid}
           min-height:500px;height:25vw; }
 .firstline{position: relative;float:left;width:100%;}
 .secondline{position: relative;float:left;width:100%;}
+.thirdline{position: relative;float:left;width:100%;}
 .labelarea{display:inline}
+#labelarea6{visibility: hidden;}
+#labelarea7{visibility: hidden;}
+#labelarea8{visibility: hidden;}
+#labelarea9{visibility: hidden;}
 .check{position:relative;float:left;
              width:4%;margin-top:2.5%;margin-left:2%;margin-right:1%}
-.name_label_yellow{position:relative;float:left;width:17%;margin-top:2%;margin-bottom:5%;margin-left:-1%;}
-.role_name{position:relative;float:left;z-index:100;color:#858585;
+.name_label_yellow{position:relative;float:left;width:17%;
+                  margin-top:2%;margin-bottom:5%;margin-left:-1%;}
+.role_name, .fake_name{position:relative;float:left;z-index:100;color:#858585;
             font-weight:500;font-size:1.2vw;
-            margin-top:3.2%}
-#role_name1{margin-left:-21.5%}
-#role_name2{margin-left:-20.8%;}
-#role_name3{margin-left:-19.5%}
-#role_name4{margin-left:-20%}
-#role_name_last{margin-left:-19%;margin-top:3%;font-size:1.5vw}
+            margin-top:3.2%;border:none;width:14%;height:2vw;
+            text-align:center;background-color:#FFFDE5;}
+#role_name1{margin-left:-25.5%}
+#role_name2{margin-left:-25%;}
+#role_name3{margin-left:-25.5%}
+#role_name4{margin-left:-25%}
+#role_name5{margin-left:-25.5%;display:none}
+#fake_name5{margin-left:-25%;}
+#role_name6{margin-left:-25.5%;display:none}
+#fake_name6{margin-left:-25%;}
+#role_name7{margin-left:-25.5%; display:none}
+#fake_name7{margin-left:-25%;}
+#role_name8{margin-left:-25.5%; display:none}
+#fake_name8{margin-left:-25%;}
+#role_name9{margin-left:-25.5%; display:none}
+#fake_name9{margin-left:-25%;}
+.cancel{position: relative;float:left;
+        margin-top:1.7vw;z-index:1000000;
+      color:#ffd7d5;font-size:1.2em;font-weight: bold;
+      margin-left:-25.5%;visibility:hidden}
+.cancel:hover{color:rgb(255, 182, 194);font-size:1.28em}
 .number_box{position: relative;float:left;
               width:4%;margin-top:2.5%}
 .label_input{position: relative;float:left;
              color:#acacac;font-weight:500;
              font-size:1vw; margin-top:3.2%;margin-right:4%;}
 #arrow_right{position: relative;float:right;}
+
+.number_input{position:relative;float:left;
+              border-radius:5.5px; border:2px solid #ffd7d5;
+              width:2vw;height:2vw;
+              margin:2vw 0.25vw;
+              color: #FFA2A2;font-size:1.2vw;
+              text-align:center;}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+                  -webkit-appearance: none;
+                  margin: 0;
+              }
+::-webkit-input-placeholder {
+    font-style: italic;
+    color:#cccccc;
+}
+:-moz-placeholder {
+    font-style: italic;  
+    color:#cccccc;
+}
+::-moz-placeholder {
+    font-style: italic;  
+    color:#cccccc;
+}
+::-ms-input-placeholder {  
+    font-style: italic; 
+    color:#cccccc;
+}
