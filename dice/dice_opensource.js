@@ -3,7 +3,7 @@
 $(document).ready(function(){
             // console.log(screen.availWidth);
             // console.log(screen.availHeight);
-            console.log(window.innerWidth);
+            //console.log(window.innerWidth);
 if(window.innerWidth<800)
 {
     $('.dice_opensource').css('margin-left', '-10%');
