@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('#leader_tab').click(function(){
+        window.location.href="leader.html"
+    });
+    $('#role_tab').click(function(){
+        window.location.href="role_setting/role_setting.html"
+    });
+    $('#restart_hover').click(function(){
+        window.location.href="check.html"
+    });
+});
