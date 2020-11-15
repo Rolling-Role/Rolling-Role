@@ -1,5 +1,5 @@
 body{background-color: #FFF2CC;min-width:800px;}
-.title { text-align: center;}
+#title {position: relative; width:8%; min-width:100px; margin-left:46%;margin-top:1%; margin-bottom: 2%}
 .innerframe {position:relative;
             background-color: #FFFFFF;
             border:#FFFFFF solid 1px; 
@@ -17,8 +17,18 @@ body{background-color: #FFF2CC;min-width:800px;}
 .labelarea {display:inline;}
 .name_label_white {position: relative; float:left; width:17%; margin-bottom:5%;  margin-right:10%;}
 .role_name {position: relative; float:left; z-index:100; color:#858585; margin-left:-19.5%; margin-top:1%;
-            font-weight:500; font-size:1.5vw;} 
+            font-weight:500; font-size:1.5vw; background-color:#FFFDE5; width: 14%; height:2vw; border:none;
+            text-align:center;} 
 .start {display:inline; margin-top:-20%; margin-left:85%;}
+#role_name1 {position: absolute; margin-left:-79.5%;}
+#role_name2 {position: absolute; margin-left:-52.4%;}
+#role_name3 {position: absolute; margin-left:-25.4%;}
+#role_name4 {position: absolute; margin-left:-79.5%;}
+#role_name5 {position: absolute; margin-left:-52.4%;}
+#role_name6 {position: absolute; margin-left:-25.4%;}
+
+
+
            
 
 
