@@ -1,0 +1,18 @@
+body{background-color: #FFF2CC;min-width:800px;}
+.innerframe { 
+    position:relative;
+    background-color: #FFFFFF;
+    background-image: url(rollingrole_images/vote2.png);
+    background-size: cover;
+    border:#FFFFFF solid 1px; 
+    width:40%; min-height:300px;
+    margin-left:30%; padding-top:6px;
+    margin-top:10% 
+    }
+.text1 {margin-left:2%; font-size:80;}
+.text2 {margin-left:2%; font-size:80;}
+.head {margin-left:2%;}
+.first {margin-left:1%; font-size:60;}
+.second {margin-left:1%; font-size:60;}
+.finish {margin-left:2%;}
+
