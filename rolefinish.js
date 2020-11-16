@@ -6,6 +6,6 @@ $(document).ready(function(){
         window.location.href="role_setting/role_setting.html"
     });
     $('#restart_hover').click(function(){
-        window.location.href="check.html"
+        window.location.href="role_setting/role_setting.html"
     });
 });
