@@ -6,7 +6,7 @@ $ (document).ready(function(){
     window.location.href="./role_setting/role_setting.html"
   });
   $('#arrow_left').click(function(){
-    window.location.href="leader.html"
+    window.location.href="./role_setting/role_setting.html"
   });
   $('#arrow_right').click(function(){
     window.location.href="check.html"
