@@ -1,20 +1,62 @@
-body{background-color: #FFF2CC;min-width:900px;overflow: hidden;}
-#title{position:relative;width:8%; min-width:100px; margin-left:46%;margin-top:1%; margin-bottom: 2%;}
-.innerframe{position:relative;
-            background-color:#FFFFFF;
-            background-image:url('../rollingrole_images/dice_background_pattern.png');
-            border:#FFFFFF solid 1px;
-            width:80%;min-height:650px;
-            margin-left:10%;padding-top:6px;
-            margin-top:0%;}
-.tab{color:#858072;
-    padding:4px;
-    position:relative;
-    margin:2%;}
-.tab:hover{background-color:rgb(236, 255, 197);}
-#leader_tab{background-color: rgb(236, 255, 197);}
+body {
+  background-color: #fff2cc;
+  min-width: 900px;
+  overflow: hidden;
+}
+#title {
+  position: relative;
+  width: 8%;
+  min-width: 100px;
+  margin-left: 46%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.innerframe {
+  position: relative;
+  background-color: #ffffff;
+  background-image: url("../rollingrole_images/dice_background_pattern.png");
+  border: #ffffff solid 1px;
+  width: 80%;
+  min-height: 650px;
+  margin-left: 10%;
+  padding-top: 6px;
+  margin-top: 0%;
+}
+.tab {
+  color: #858072;
+  padding: 4px;
+  position: relative;
+  margin: 2%;
+}
+.tab:hover {
+  background-color: rgb(236, 255, 197);
+}
+#leader_tab {
+  background-color: rgb(236, 255, 197);
+}
 /* #role_tab{} */
-hr{height:0;border:none;border-top:#acacac 1px solid}
-#dice_background_left{float:left;margin:0px;}
-#dice_background_right{float:right;}
-.dice_opensource{position:relative;float:left;margin-top:8%;width:30%;margin-left: 22%;margin-right:22%;}
+hr {
+  height: 0;
+  border: none;
+  border-top: #acacac 1px solid;
+}
+#dice_background_left {
+  float: left;
+  margin: 0px;
+}
+#dice_background_right {
+  float: right;
+}
+.dice_opensource {
+  position: relative;
+  float: left;
+  margin-top: 8%;
+  width: 30%;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+#btnRolling {
+  position: relative;
+  float: left;
+  margin-top: 70%;
+}

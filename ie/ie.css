@@ -1,0 +1,20 @@
+body {
+  background-color: #fffcfede;
+}
+.square {
+  border: 5px double pink;
+  background-color: #fffef2;
+  padding: 1%;
+  max-width: 50vw;
+  position: relative;
+  float: left;
+  margin-left: 28%;
+  margin-top: 5%;
+  font-size: 0.8vw;
+}
+a:link {
+  color: #ffbbbbd7;
+}
+a:visited {
+  color: rgb(234, 191, 252);
+}
