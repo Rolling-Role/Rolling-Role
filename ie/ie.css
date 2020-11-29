@@ -1,5 +1,5 @@
 body {
-  background-color: #fffcfede;
+  background-color: #fffcfc;
 }
 .square {
   border: 5px double pink;
@@ -13,7 +13,7 @@ body {
   font-size: 0.8vw;
 }
 a:link {
-  color: #ffbbbbd7;
+  color: #ffbbbb;
 }
 a:visited {
   color: rgb(234, 191, 252);
