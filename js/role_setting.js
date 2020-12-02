@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#leader_tab').click(function(){
-        window.location.href="../html/leader.html"
+        document.location.href="../html/leader.html"
     });
     $('#role_tab').click(function(){
         alert("역할분담 첫화면입니다");
@@ -9,8 +9,43 @@ $(document).ready(function(){
         alert("역할분담 첫화면입니다");
     });
     $('#arrow_right').click(function(){
+        for(i=0;i<9;i++){
+            let id='#check_after'+(i+1);
+            if($(id).attr('data-flag')=='0')
+            {
+                let rn='#role_name'+(i+1);
+                let dn='#number_input'+(i+1);
+                $(rn).attr('value', ' ');
+                $(rn).text(' ');
+                $(dn).val(0);
+            }
+        }
         //DB 역할 테이블에 역할정보 저장 요청
-        window.location.href="../html/check.html"
+        var param={
+            ip : ip(),
+            role_name1 : $('#role_name1').text(),
+            role_name2 : $('#role_name2').text(),
+            role_name3 : $('#role_name3').text(),
+            role_name4 : $('#role_name4').text(),
+            role_name5 : $('#role_name5').val(),
+            role_name6 : $('#role_name6').val(),
+            role_name7 : $('#role_name7').val(),
+            role_name8 : $('#role_name8').val(),
+            role_name9 : $('#role_name9').val(),
+
+            do_num1 : $('#number_input1').val(),
+            do_num2 : $('#number_input2').val(),
+            do_num3 : $('#number_input3').val(),
+            do_num4 : $('#number_input4').val(),
+            do_num5 : $('#number_input5').val(),
+            do_num6 : $('#number_input6').val(),
+            do_num7 : $('#number_input7').val(),
+            do_num8 : $('#number_input8').val(),
+            do_num9 : $('#number_input9').val(),
+        }
+        $.post("/role_name", param,function(){
+            document.location.href="../html/check.html";
+        });
     });
 
     $('.check').click(function(e){
@@ -21,13 +56,11 @@ $(document).ready(function(){
          {
             $('#'+clicked).attr('src', '../rollingrole_images/check_before.png')
             $('#'+clicked).attr('data-flag','0')
-            // console.log($('#'+clicked).attr('data-flag'))
          }
         else
         {
             $('#'+clicked).attr('src', '../rollingrole_images/check_after.png')
             $('#'+clicked).attr('data-flag','1')
-            // console.log($('#'+clicked).attr('data-flag'))
         }
     })
     var cur=5;
