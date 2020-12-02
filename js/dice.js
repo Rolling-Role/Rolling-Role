@@ -4,12 +4,12 @@ $(document).ready(function(){
         if(select==1)
         {
             console.log("예");
-            window.location.href="../html/leader.html"
+            document.location.href="../html/leader.html"
         }
         else
             console.log("아니오");
     });
     $('#role_tab').click(function(){
-        window.location.href="../html/role_setting.html"
+        document.location.href="../html/role_setting.html"
     });
 });
