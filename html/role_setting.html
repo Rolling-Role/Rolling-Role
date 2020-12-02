@@ -6,7 +6,23 @@
         <link rel="stylesheet" href="../css/role_setting.css">
         <script src="http://code.jquery.com/jquery-3.5.0.js"></script>
         <script src="../js/role_setting.js"></script>
-       
+        <script>
+          function send(){
+              var param = {
+                  name : $('#user_name').val()
+                  ,age : '123'
+              };
+              $.post('/save_data',param,function(data){
+                  if(data == '11'){
+                      alert(1);
+                  }else{
+                      alert(2);
+                  }
+              });
+          }
+
+          var eee;
+      </script>
     </head>
     <body>
      <img src="../rollingrole_images/title.png" id="title"/>

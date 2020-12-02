@@ -1,10 +1,4 @@
 $(document).ready(function(){
-    $('#role_tab').click(function(){
-        window.location.href="../html/role_setting.html"
-    });
-});
-
-$(document).ready(function(){
     $('#start_hover').click(function(){
         window.location.href="../html/dice.html"
     });
