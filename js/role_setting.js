@@ -9,6 +9,7 @@ $(document).ready(function(){
         alert("역할분담 첫화면입니다");
     });
     $('#arrow_right').click(function(){
+        //DB 역할 테이블에 역할정보 저장 요청
         window.location.href="../html/check.html"
     });
 

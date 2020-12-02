@@ -5,5 +5,5 @@ $(document).ready(function(){
     else if(target.indexOf("mise")!=-1)
         window.location.href="../html/ie.html";
     else
-        window.location.href="../leader.html";
+        window.location.href="../html/leader.html";
 })

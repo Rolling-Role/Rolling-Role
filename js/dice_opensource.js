@@ -1,17 +1,4 @@
-//  translateZ는  .dice의 가로값 절반이면 됨
-// 리사이징 될 떄마다 계산
 $(document).ready(function(){
-            // console.log(screen.availWidth);
-            // console.log(screen.availHeight);
-            //console.log(window.innerWidth);
-if(window.innerWidth<800)
-{
-    $('.dice_opensource').css('margin-left', '-10%');
-}
-else if(window.innerWidth>1000)
-{
-    $('.dice_opensource').css('margin-left', '22%');
-}
 var dice = document.querySelectorAll('.dice');
 var dice_width = dice[0].clientWidth;
 var face1 = document.querySelectorAll('.face1');
@@ -40,30 +27,33 @@ function DiceResizing(){
     item.style.transform = 'rotateY(540deg) translateZ(' + dice_width/2 + 'px)';
   });
 }
-
 DiceResizing();
 
-window.onresize = function(){
-  dice_width = dice[0].clientWidth;
-  DiceResizing();
-};
-
 // 랜덤 주사위 눈
+var res=Math.ceil(Math.random()*6);
 var RandomNumber = function(){
-  let res=Math.ceil(Math.random()*6);
   return 'face' + res; {/*기존 오픈소스에서 floor함수 사용(0~5)으로 인해6이 안나오던 현상 -> ceil 함수 사용(1~6)으로 해결*/}
 };
 function rolling(n){
   dice[n].classList.add(RandomNumber());
 //   dice[1].classList.add(RandomNumber());
 }
+// 주사위 자동으로 굴리기
+dice[0].classList.value = "dice";
+dice[1].classList.value = "dice";
+rolling(0);
+rolling(1);
+//DB groups테이블에 주사위결과 저장 요청
 
-// 주사위 굴리기
-var btnRolling = document.querySelector('#btnRolling');
-btnRolling.onclick = function(){
-  dice[0].classList.value = "dice";
-  dice[1].classList.value = "dice";
-  rolling(0);
-  rolling(1);
-};
+function send(res){
+    var param = {
+        num : res, //주사위에서 나온 숫자를 인자로 지정
+        ip:ip(),
+    };
+    console.log("sdf")
+    $.post('/dice_num',param,function(data){
+     document.location.href="../html/leaderresult.html"; //db저장 후에 콜백으로 페이지 이동
+    });//db에 저장요청 보내기
+}
+send(res);
 });
