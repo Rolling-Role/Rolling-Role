@@ -51,8 +51,12 @@ function send(res){
         ip:ip(),
     };
     $.post('/dice_num',param,function(data){ 
-     document.location.href="../html/leaderresult.html";
+      setTimeout(function(){
+        document.location.href="../html/leaderresult.html";
+      },1700);
+      
     });
 }
 send(res);
+
 });
