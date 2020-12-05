@@ -47,8 +47,15 @@ var app = http.createServer(function(request,response){
                 response.write('response');
                 response.end();
                 return;
-            }
-
+            }else if(request.url == '/get_dice_num'){
+                var result = get_diceNum(post,function(result){
+                    response.writeHead(200);
+                    response.write(JSON.stringify(result));
+                    response.end();
+                });
+                return;
+            
+        }
 
         });
     }
@@ -64,10 +71,29 @@ var diceNum = function(param){
         database : 'rollingrole'    
     });
     connection.connect();
-    connection.query("UPDATE groups SET leader_num='"+param.num+"' WHERE group_info='"+param.ip+"'",
+    connection.query("UPDATE rollingrole.groups SET leader_num='"+param.num+"' WHERE group_info='"+param.ip+"'",
         function (error, results) {
             if (error) throw error;
             console.dir(results);
+        });
+    connection.end();
+}
+var get_diceNum = function(param,callback){
+    var connection = mysql.createConnection({
+        host     : 'localhost',   
+        port     : '3307',
+        user     : 'roll',       
+        password : '1234',     
+        database : 'rollingrole'
+    });
+    connection.connect();
+    connection.query('select leader_num from rollingrole.groups',function (error, results, fields) {
+            if (error) throw error;
+
+            callback(results);
+            console.dir(results);
+            // return results;
+            // console.log('The solution is: ', results[0].solution);
         });
     connection.end();
 }
