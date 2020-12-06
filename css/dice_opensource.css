@@ -1,0 +1,171 @@
+#wrap {
+  max-width: 100%;
+  min-width: 500px;
+  height: 500px;
+}
+#diceBox {
+  max-width: 100%;
+  min-width: 500px;
+  width: 90vw;
+  height: auto;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  padding: 40px;
+  box-sizing: border-box;
+}
+#diceBox > .dice_wrap {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 20px;
+}
+#diceBox > .dice_wrap > [class^="dice"]:last-of-type {
+  margin-right: 0px;
+}
+/* 주사위 만들기 */
+#diceBox > .dice_wrap > [class^="dice"] {
+  width: 50%;
+  margin-right: 0%;
+  padding-top: 50%;
+  position: relative;
+}
+.dice_inner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  perspective: 300px;
+  padding: 20%;
+  box-sizing: border-box;
+}
+#diceBox > .dice_wrap > [class^="dice"] .dice {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+#diceBox > .dice_wrap > [class^="dice"] .dice > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  color: #fff;
+  font-size: 60px;
+}
+#diceBox > .dice_wrap > [class^="dice"] .dice .face1 {
+  transform: rotateY(720deg) translateZ(780px);
+  -webkit-transform: rotateY(720deg) translateZ(780px);
+  -moz-transform: rotateY(720deg) translateZ(780px);
+  -ms-transform: rotateY(720deg) translateZ(780px);
+  -o-transform: rotateY(720deg) translateZ(780px);
+  background: #d2eea1;
+} /*연두1*/
+#diceBox > .dice_wrap > [class^="dice"] .dice .face2 {
+  transform: rotateY(450deg) translateZ(780px);
+  -webkit-transform: rotateY(450deg) translateZ(780px);
+  -moz-transform: rotateY(450deg) translateZ(780px);
+  -ms-transform: rotateY(450deg) translateZ(780px);
+  -o-transform: rotateY(450deg) translateZ(780px);
+  background: #ffc4c4;
+} /*분홍2*/
+#diceBox > .dice_wrap > [class^="dice"] .dice .face3 {
+  transform: rotateX(540deg) translateZ(780px);
+  -webkit-transform: rotateX(540deg) translateZ(780px);
+  -moz-transform: rotateX(540deg) translateZ(780px);
+  -ms-transform: rotateX(540deg) translateZ(780px);
+  -o-transform: rotateX(540deg) translateZ(780px);
+  background: #fff5ab;
+} /*노랑1*/
+#diceBox > .dice_wrap > [class^="dice"] .dice .face4 {
+  transform: rotateX(630deg) translateZ(780px);
+  -webkit-transform: rotateX(630deg) translateZ(780px);
+  -moz-transform: rotateX(630deg) translateZ(780px);
+  -ms-transform: rotateX(630deg) translateZ(780px);
+  -o-transform: rotateX(630deg) translateZ(780px);
+  background: #fff9b5;
+} /*노랑2*/
+#diceBox > .dice_wrap > [class^="dice"] .dice .face5 {
+  transform: rotateY(630deg) translateZ(780px);
+  -webkit-transform: rotateY(630deg) translateZ(780px);
+  -moz-transform: rotateY(630deg) translateZ(780px);
+  -ms-transform: rotateY(630deg) translateZ(780px);
+  -o-transform: rotateY(630deg) translateZ(780px);
+  background: #ffbfbf;
+} /*진분홍*/
+#diceBox > .dice_wrap > [class^="dice"] .dice .face6 {
+  transform: rotateY(540deg) translateZ(780px);
+  -webkit-transform: rotateY(540deg) translateZ(780px);
+  -moz-transform: rotateY(540deg) translateZ(780px);
+  -ms-transform: rotateY(540deg) translateZ(780px);
+  -o-transform: rotateY(540deg) translateZ(780px);
+  background: #caec9d;
+} /*진연두*/
+/* 주사위 눈 */
+#diceBox > .dice_wrap > [class^="dice"] .dice.face1 {
+  transform: rotateX(360deg) rotateY(360deg);
+  -webkit-transform: rotateX(360deg) rotateY(360deg);
+  -moz-transform: rotateX(360deg) rotateY(360deg);
+  -ms-transform: rotateX(360deg) rotateY(360deg);
+  -o-transform: rotateX(360deg) rotateY(360deg);
+}
+#diceBox > .dice_wrap > [class^="dice"] .dice.face2 {
+  transform: rotateX(360deg) rotateY(270deg);
+  -webkit-transform: rotateX(360deg) rotateY(270deg);
+  -moz-transform: rotateX(360deg) rotateY(270deg);
+  -ms-transform: rotateX(360deg) rotateY(270deg);
+  -o-transform: rotateX(360deg) rotateY(270deg);
+}
+#diceBox > .dice_wrap > [class^="dice"] .dice.face3 {
+  transform: rotateX(270deg) rotateY(360deg);
+  -webkit-transform: rotateX(270deg) rotateY(360deg);
+  -moz-transform: rotateX(270deg) rotateY(360deg);
+  -ms-transform: rotateX(270deg) rotateY(360deg);
+  -o-transform: rotateX(270deg) rotateY(360deg);
+}
+#diceBox > .dice_wrap > [class^="dice"] .dice.face4 {
+  transform: rotateX(90deg) rotateY(360deg);
+  -webkit-transform: rotateX(90deg) rotateY(360deg);
+  -moz-transform: rotateX(90deg) rotateY(360deg);
+  -ms-transform: rotateX(90deg) rotateY(360deg);
+  -o-transform: rotateX(90deg) rotateY(360deg);
+}
+#diceBox > .dice_wrap > [class^="dice"] .dice.face5 {
+  transform: rotateX(360deg) rotateY(90deg);
+  -webkit-transform: rotateX(360deg) rotateY(90deg);
+  -moz-transform: rotateX(360deg) rotateY(90deg);
+  -ms-transform: rotateX(360deg) rotateY(90deg);
+  -o-transform: rotateX(360deg) rotateY(90deg);
+}
+#diceBox > .dice_wrap > [class^="dice"] .dice.face6 {
+  transform: rotateX(360deg) rotateY(180deg);
+  -webkit-transform: rotateX(360deg) rotateY(180deg);
+  -moz-transform: rotateX(360deg) rotateY(180deg);
+  -ms-transform: rotateX(360deg) rotateY(180deg);
+  -o-transform: rotateX(360deg) rotateY(180deg);
+}
+/* #btnRolling { display: block; width: 100px; height: 100px; margin: 0 auto; background-color: #FF1C1C16; border: red; border-radius: 100%; color: gray; cursor: pointer; position: relative; overflow: hidden; }주사위 굴리기 버튼 */
+/* #btnRolling::before{ display: block; content: ''; width: 60px; height: 100%; position: absolute; top:0; left: -60px; transition: all 0.5s; transform: skewX(-45deg); transform-origin: top left; opacity: 0.3; }
+#btnRolling:hover::before { transform: skewX(-45deg) translateX(280px); } */
+
+/* 반응형 */
+@media screen and (max-width: 800px) {
+  #diceBox {
+    box-shadow: none;
+  }
+  #diceBox > .dice_wrap {
+    display: block;
+  }
+  #diceBox > .dice_wrap > [class^="dice"] {
+    width: 100%;
+    margin-right: 0%;
+    padding-top: 10%;
+  }
+}

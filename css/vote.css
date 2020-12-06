@@ -1,0 +1,15 @@
+body{background-color: #FFF2CC;min-width:800px;}
+.title { text-align: center;}
+.innerframe {position:relative;
+            background-color: #FFFFFF;
+            border:#FFFFFF solid 1px; 
+            width:80%; min-height:650px;
+            margin-left:10%; padding-top:6px;
+            margin-top:0% 
+            }
+.tab {color:#858072;
+      padding:4px;
+      position:relative;
+      margin:2%;
+      }
+.vote {display:inline; margin-top:22%; margin-left:20%;}

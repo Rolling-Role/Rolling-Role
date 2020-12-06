@@ -1,0 +1,127 @@
+body {
+  background: #fff2cc;
+  overflow: hidden;
+  min-width: 900px;
+}
+#title {
+  position: relative;
+  display: inline-block;
+  width: 8%;
+  min-width: 100px;
+  margin-left: 46%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+#save_img {
+  background: url("../rollingrole_images/name_label_white.png");
+  border: none;
+  width: 260px;
+  height: 80px;
+  position: absolute;
+  display: inline-block;
+  margin-left: 55%;
+}
+#save_button {
+  position: absolute;
+  display: inline-block;
+  margin-left: 60%;
+  margin-top: 1.5%;
+  z-index: 3;
+  font-size: 35px;
+}
+.innerframe {
+  position: relative;
+  background-color: #ffffff;
+  border: #ffffff solid 1px;
+  width: 80%;
+  min-height: 650px;
+  margin-left: 10%;
+  padding-top: 6px;
+  margin-top: 0%;
+}
+.tab {
+  color: #858072;
+  padding: 4px;
+  position: relative;
+  margin: 2%;
+}
+.tab:hover {
+  background-color: rgb(236, 255, 197);
+}
+#role_tab {
+  background-color: rgb(236, 255, 197);
+}
+hr {
+  height: 0;
+  border: none;
+  border-top: #acacac 1px solid;
+}
+.arrow {
+  margin: 1%;
+}
+#arrow_left {
+  position: relative;
+  float: left;
+}
+#arrow_right {
+  position: relative;
+  float: right;
+}
+.mainarea {
+  position: relative;
+  border: 1px solid #ffe1d2;
+  background-color: #fffef2;
+  width: 90%;
+  min-height: 500px;
+  padding: 10px;
+  display: inline-block;
+}
+.firstline {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.labelarea {
+  display: inline-block;
+}
+#leader_name {
+  position: absolute;
+  float: left;
+  color: #acacac;
+  font-weight: 500;
+  font-size: 1.2vw;
+  z-index: 3;
+  text-align: center;
+  background-color: #fffde5;
+  margin-left: -20%;
+  margin-top: 4%;
+  border: none;
+}
+#title_logo {
+  z-index: 0;
+  padding: 25px;
+}
+#secondp {
+  position: absolute;
+  padding-left: 5px;
+}
+input[type="text"]::-webkit-outer-spin-button,
+input[type="text"]::-webki-innner-spin-button {
+  -webkit-appearance: none;
+}
+::-webkit-input-placeholder {
+  font-style: italic;
+  color: #cccccc;
+}
+:-moz-placeholder {
+  font-style: italic;
+  color: #cccccc;
+}
+::-moz-placeholder {
+  font-style: italic;
+  color: #cccccc;
+}
+::-ms-input-placeholder {
+  font-style: italic;
+  color: #cccccc;
+}

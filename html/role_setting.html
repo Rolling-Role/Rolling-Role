@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>rollingrole-dice</title>
+        <link rel="stylesheet" href="../css/role_setting.css">
+        <script src="http://code.jquery.com/jquery-3.5.0.js"></script>
+        <script src="../js/role_setting.js"></script>
+        <script type="text/javascript" src="http://jsgetip.appspot.com"></script>
+    </head>
+    <body>
+     <img src="../rollingrole_images/title.png" id="title"/>
+      <!-- <img src="../rollingrole_images/rollcake_yellow.png" id="rollcake"/><br/>
+      <label id="title">Rolling Role</label> -->
+      <div class="innerframe">
+             <label id="leader_tab" class="tab">조장뽑기</label>
+             <label id="role_tab" class="tab">역할분담</label>
+              <hr>
+              <p id="guide">작품 제작은 모두 참여한다는 가정하에 나머지 역할들을 분배합니다.<br/>
+                명수 조정을 통해 각 역할에 참여할 인원 수를 조정해보세요!</p>
+             <img src="../rollingrole_images/arrow_left.png" id="arrow_left" class="arrow"/>
+             <div class="mainarea">
+               <div class="firstline">
+               <span class="labelarea" id="labelarea1" data-flag="1">
+                <img src="../rollingrole_images/check_after.png" id="check_after1" class="check" data-flag="1">
+                <img src="../rollingrole_images/name_label_yellow.png" id="name_label_yellow1" class="name_label_yellow">
+                <input type="number" id="number_input1" class="number_input" value=2>
+                <label for="number_input1" id="label_input1" class="label_input">명</label>
+                <label id="role_name1" class="role_name">자료조사</label>
+               </span>
+              <span class="labelarea" id="labelarea2" data-flag="2">
+                <img src="../rollingrole_images/check_after.png" id="check_after2" class="check" data-flag="1">
+                <img src="../rollingrole_images/name_label_yellow.png" id="name_label_yellow2" class="name_label_yellow">
+                <input type="number" id="number_input2" class="number_input" value=1>
+                <label for="number_input2" id="label_input2" class="label_input">명</label>
+                <label id="role_name2" class="role_name">보고서</label>
+              </span>
+              <span class="labelarea" id="labelarea3" data-flag="3">
+                <img src="../rollingrole_images/check_after.png" id="check_after3" class="check" data-flag="1">
+                <img src="../rollingrole_images/name_label_yellow.png" id="name_label_yellow3" class="name_label_yellow">
+                <input type="number" id="number_input3" class="number_input" value=2>
+                <label for="number_input3" id="label_input3" class="label_input">명</label>
+                <label id="role_name3" class="role_name">PPT</label>
+              </span>
+              </div>
+            <div class="secondline">
+              <span class="labelarea" id="labelarea4" data-flag="4">
+                <img src="../rollingrole_images/check_after.png" id="check_after4" class="check" data-flag="1">
+                <img src="../rollingrole_images/name_label_yellow.png" id="name_label_yellow4" class="name_label_yellow">
+                <input type="number" id="number_input4" class="number_input" value=1>
+                <label for="number_input4" id="label_input4" class="label_input">명</label>
+                <label id="role_name4" class="role_name">발표</label>
+              </span>
+              <span class="labelarea" id="labelarea5" data-flag="5">
+                <img src="../rollingrole_images/check_before.png" id="check_after5" class="check" data-flag="0">
+                <img src="../rollingrole_images/name_label_yellow.png" id="name_label_yellow5" class="name_label_yellow">
+                <input type="number" id="number_input5" class="number_input" value=1>
+                <label for="number_input5" id="label_input5" class="label_input">명</label>
+                <input type="text" id="role_name5" class="role_name" placeholder="역할입력"> </input>
+                <input type="text" id="fake_name5" class="fake_name" value="+" data-flag="0" readonly></input>
+                <label id="cancel5" class="cancel">x</label>
+              </span>
+              <span class="labelarea" id="labelarea6" data-flag="6">
+                <img src="../rollingrole_images/check_before.png" id="check_after6" class="check" data-flag="0">
+                <img src="../rollingrole_images/name_label_yellow.png" id="name_label_yellow6" class="name_label_yellow">
+                <input type="number" id="number_input6" class="number_input" value=1>
+                <label for="number_input6" id="label_input6" class="label_input">명</label>
+                <input type="text" id="role_name6" class="role_name" placeholder="역할입력"> </input>
+                <input type="text" id="fake_name6" class="fake_name" value="+" data-flag="0" readonly></input>
+                <label id="cancel6" class="cancel">x</label>
+              </span>
+            </div>
+            <div class="thirdline">
+              <span class="labelarea" id="labelarea7" data-flag="7">
+                <img src="../rollingrole_images/check_before.png" id="check_after7" class="check" data-flag="0">
+                <img src="../rollingrole_images/name_label_yellow.png" id="name_label_yellow7" class="name_label_yellow">
+                <input type="number" id="number_input7" class="number_input" value=1>
+                <label for="number_input7" id="label_input7" class="label_input">명</label>
+                <input type="text" id="role_name7" class="role_name" placeholder="역할입력"> </input>
+                <input type="text" id="fake_name7" class="fake_name" value="+" data-flag="0" readonly></input>
+                <label id="cancel7" class="cancel">x</label>
+              </span>
+              <span class="labelarea" id="labelarea8" data-flag="8">
+                <img src="../rollingrole_images/check_before.png" id="check_after8" class="check" data-flag="0">
+                <img src="../rollingrole_images/name_label_yellow.png" id="name_label_yellow8" class="name_label_yellow">
+                <input type="number" id="number_input8" class="number_input" value=1> 
+                <label for="number_input8" id="label_input8" class="label_input">명</label>
+                <input type="text" id="role_name8" class="role_name" placeholder="역할입력"> </input>
+                <input type="text" id="fake_name8" class="fake_name" value="+" data-flag="0" readonly></input>
+                <label id="cancel8" class="cancel">x</label>
+              </span>
+              <span class="labelarea" id="labelarea9" data-flag="9">
+                <img src="../rollingrole_images/check_before.png" id="check_after9" class="check" data-flag="0">
+                <img src="../rollingrole_images/name_label_yellow.png" id="name_label_yellow9" class="name_label_yellow">
+                <input type="number" id="number_input9" class="number_input" value=1>
+                <label for="number_input9" id="label_input9" class="label_input">명</label>
+                <input type="text" id="role_name9" class="role_name" placeholder="역할입력"> </input>
+                <input type="text" id="fake_name9" class="fake_name" value="+" data-flag="0" readonly></input>
+                <label id="cancel9" class="cancel">x</label>
+              </span>
+            </div>
+             </div>
+             <img src="../rollingrole_images/arrow_right.png" id="arrow_right" class="arrow"/>
+      </div>
+    </body>
+</html>
