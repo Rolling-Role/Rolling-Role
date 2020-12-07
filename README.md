@@ -22,7 +22,7 @@
   
   #### -역할분담
   <img src="https://user-images.githubusercontent.com/47634717/98065692-6a2b0a80-1e98-11eb-9166-7bea05994e56.png" width="24%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/98065694-6a2b0a80-1e98-11eb-9887-dbf825e359e4.png" width="24%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101402150-b98cac80-3916-11eb-9f80-eb772253102f.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98065696-6ac3a100-1e98-11eb-808d-5eff3fcafd2a.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98065682-68614700-1e98-11eb-8296-b6344fceec9a.png" width="24%"/>
 </div>
