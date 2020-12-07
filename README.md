@@ -18,7 +18,8 @@
   #### -조장뽑기
   <img src="https://user-images.githubusercontent.com/47634717/98065685-68f9dd80-1e98-11eb-839d-38104cc40844.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101401880-4e42da80-3916-11eb-8a46-289b845451e0.png" width="24%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/98065691-69927400-1e98-11eb-8117-1f2b1a740109.png" width="24%"/><br/><br/>
+  <img src="https://user-images.githubusercontent.com/47634717/98065691-69927400-1e98-11eb-8117-1f2b1a740109.png" width="24%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101403368-7d5a4b80-3918-11eb-9115-e3332665e349.png" width="24%"/><br/><br/>
   
   #### -역할분담
   <img src="https://user-images.githubusercontent.com/47634717/98065692-6a2b0a80-1e98-11eb-9166-7bea05994e56.png" width="24%"/>
@@ -33,7 +34,8 @@
   #### -조장뽑기
   <img src="https://user-images.githubusercontent.com/47634717/98064781-7ada8100-1e96-11eb-90ba-2a5684db9516.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101401424-af1de300-3915-11eb-95eb-d18dbda2b966.png" width="49%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/98064786-7f9f3500-1e96-11eb-9d4d-d93e8c61947b.png" width="49%"/><br/><br/>
+  <img src="https://user-images.githubusercontent.com/47634717/98064786-7f9f3500-1e96-11eb-9d4d-d93e8c61947b.png" width="49%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101403363-7c291e80-3918-11eb-9e41-b3f72d7367f9.png" width="49%"/> <br/><br/>
   
   #### -역할분담
   <img src="https://user-images.githubusercontent.com/47634717/98064810-8ded5100-1e96-11eb-9421-a79e40741e09.png" width="49%"/>
