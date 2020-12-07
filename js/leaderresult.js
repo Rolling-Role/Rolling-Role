@@ -4,7 +4,7 @@ $(document).ready(function(){
     };
     $.post('/get_dice_num',param,function(date){
         var  dd = JSON.parse(date);
-        //console.dir(dd);
+        //console.log("adsfasdf"+date);
         $('#name').html(dd[0].leader_num+"번 팀원님이 조장입니다!");
     });
 
