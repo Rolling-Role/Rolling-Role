@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>조장 찬성/반대 투표</title>
     <link rel = "stylesheet" href = "../css/vote2.css">
+    <script src="http://code.jquery.com/jquery-3.5.0.js"></script>
+    <script type="text/javascript" src="http://jsgetip.appspot.com"></script>
+    <script src="../js/vote2.js"></script>
+
     </head>
 
     <body>
@@ -14,13 +18,18 @@
         <div class="text1">주사위에서 당첨된 사람이 조장을</div>
         <div class="text2">맡는것에 찬성하나요?</div>
         <br>
-        <form method='post' action='server.html'>
+        <form method='post' action='/saveVote'>
 
-        <label class="first"><input type="radio" name="vote"/>찬성해요</label>
-        <label class="second"><input type="radio" name="vote" />반대해요</label>
+        <label class="first"><input type="radio" name="vote" id="agree"/>찬성해요</label>
+        <label class="second"><input type="radio" name="vote" id="disagree"/>반대해요</label>
+        <label id="third">  [투표 시행 횟수 : 1]</label>
         <br><br>
 
-        <label class="finish"><input type='submit' value=" 투표완료 "></label>
+        <label class="finish"><input type='button' value=" 투표하기 " id="VOTE"></label>
+        <label class="finish_2"><input type='button' value=" 투표결과보기" id="VOTE_F"></label>
+        <label class="finish_3"><input type='button' value=" 다음단계로" id="AGREE"></label>
+        <br>
+        <label id="vote2">최종투표결과 :</label> 
         </form>
     </div>
     </body>

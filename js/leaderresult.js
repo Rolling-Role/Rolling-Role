@@ -7,7 +7,8 @@ $(document).ready(function(){
         //console.log("adsfasdf"+date);
         $('#name').html(dd[0].leader_num+"번 팀원님이 조장입니다!");
     });
-
+        
+    
 
     $('#leader_tab').click(function(){
         window.location.href="../html/leader.html"
