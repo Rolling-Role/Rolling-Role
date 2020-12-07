@@ -21,7 +21,7 @@
   <img src="https://user-images.githubusercontent.com/47634717/98065691-69927400-1e98-11eb-8117-1f2b1a740109.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101403368-7d5a4b80-3918-11eb-9115-e3332665e349.png" width="24%"/><br/><br/>
   
-  #### -역할분담
+  - #### 역할분담
   <img src="https://user-images.githubusercontent.com/47634717/98065692-6a2b0a80-1e98-11eb-9166-7bea05994e56.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101402537-37e94e80-3917-11eb-8a34-deb6e094f3a3.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98065696-6ac3a100-1e98-11eb-808d-5eff3fcafd2a.png" width="24%"/>
@@ -31,13 +31,13 @@
 ### 🍰 < 웹 버전 >
 <div>
   
-  #### -조장뽑기
+  - #### 조장뽑기
   <img src="https://user-images.githubusercontent.com/47634717/98064781-7ada8100-1e96-11eb-90ba-2a5684db9516.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101401424-af1de300-3915-11eb-95eb-d18dbda2b966.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98064786-7f9f3500-1e96-11eb-9d4d-d93e8c61947b.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101403685-ecd03b00-3918-11eb-81ab-aeb7ea73832a.png" width="49%"/> <br/><br/>
   
-  #### -역할분담
+  - #### 역할분담
   <img src="https://user-images.githubusercontent.com/47634717/98064810-8ded5100-1e96-11eb-9421-a79e40741e09.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101402150-b98cac80-3916-11eb-9f80-eb772253102f.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101401424-af1de300-3915-11eb-95eb-d18dbda2b966.png" width="49%"/>
@@ -47,9 +47,11 @@
 
 ### 🍰 < 설치 및 사용 메뉴얼 >
 <div>
-  #### -설치 메뉴얼
-  <img src="https://user-images.githubusercontent.com/47634717/101400562-6fa2c700-3914-11eb-8f21-87fab01fdaa0.png" width="100%"/>
-  #### -사용 
+  
+  - #### 설치 메뉴얼
+  <img src="https://user-images.githubusercontent.com/47634717/101400562-6fa2c700-3914-11eb-8f21-87fab01fdaa0.png" width="100%"/><br/><br/>
+  
+  - #### 사용 
   <img src="https://user-images.githubusercontent.com/47634717/101400565-70d3f400-3914-11eb-90ec-cfc8f7625a55.png" width="100%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400572-72052100-3914-11eb-8a17-7bd140d19599.png" width="100%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400573-73364e00-3914-11eb-8e6d-0973431ce4e3.png" width="100%"/>
