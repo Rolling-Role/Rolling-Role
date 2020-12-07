@@ -100,30 +100,6 @@ var postMethods = {};
 
 
 //---------
-postMethods.saveData = function(res,post){
-    
-    var sql = 'insert into tttt (name) values ("'+post.name+'")';
-    queryExecute(sql,function (error, results, fields) {
-        if (error) throw error;
-        var returnStr = '';
-        send200(res,returnStr)
-    });
-
-};
-
-postMethods.saveVote = function(res,post){
-
-    console.dir(1123);
-    
-    var sql = 'insert into info (name) values ("'+post.vote+'")';
-    queryExecute(sql,function (error, results, fields) {
-        if (error) throw error;
-        var returnStr = '';
-        send200(res,returnStr)
-    });
-
-};
-
 
 
 postMethods.save_leader = function(res,post){
@@ -138,6 +114,15 @@ postMethods.save_leader = function(res,post){
 
 postMethods.dice_num = function(res, post){
     var sql="UPDATE rollingrole.groups SET leader_num='"+post.num+"' WHERE group_info='"+post.ip+"'";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+        send200(res,returnStr)
+    });
+}
+
+postMethods.saveVote = function(res, post){
+    var sql="UPDATE rollingrole.groups SET OPINION='"+post.opinion+"' WHERE group_info='"+post.ip+"'";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         var returnStr = '';
@@ -204,6 +189,15 @@ postMethods.get_dice_num = function(res, post){
     });
 }
 
+postMethods.get_saveVote = function(res, post){
+    var sql="select OPINION from rollingrole.groups WHERE group_info='"+post.ip+"'";
+    console.log("success");
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = JSON.stringify(results);
+        send200(res,returnStr)
+    });
+}
 postMethods.check=function(res, post){
     var sql="UPDATE rollingrole.members SET role1_score="+post.searchAdd+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_name= '"+post.mem_name+"')";
     queryExecute(sql,function (error, results, fields) {
@@ -228,6 +222,7 @@ postMethods.check=function(res, post){
     });
     
 } 
+
 postMethods.get_check = function(res, post){
     var sql='select mem_name from rollingrole.members WHERE group_num=1';
     queryExecute(sql,function (error, results, fields) {
@@ -273,3 +268,5 @@ postMethods.get_check_score4 = function(res, post){
         send200(res,returnStr)
     });
 }
+
+
