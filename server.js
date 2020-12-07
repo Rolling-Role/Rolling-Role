@@ -61,8 +61,8 @@ app.listen(3000); //localhost:80으로 서버에 접속. 자신은 3000을 들�
 
 
 var connInfo = {
-    host     : 'localhost',   
-    port     : '3307',
+    host     : '127.0.0.1',   
+    port     : '3306',
     user     : 'roll',       
     password : '1234',     
     database : 'rollingrole'    
@@ -203,3 +203,28 @@ postMethods.get_dice_num = function(res, post){
         send200(res,returnStr)
     });
 }
+
+postMethods.check=function(res, post){
+    var sql="UPDATE rollingrole.members SET role1_score="+post.searchAdd+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_name= '"+post.mem_name+"')";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    }); 
+    sql="UPDATE rollingrole.members SET role2_score="+post.pptAdd+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_name= '"+post.mem_name+"')";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        returnStr = '';
+    }); 
+    sql="UPDATE rollingrole.members SET role3_score="+post.announAdd+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_name= '"+post.mem_name+"')";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        returnStr = '';
+    }); 
+    sql="UPDATE rollingrole.members SET role4_score="+post.reportAdd+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_name= '"+post.mem_name+"')";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        returnStr = '';
+        send200(res,returnStr);  
+    });
+    
+} 
