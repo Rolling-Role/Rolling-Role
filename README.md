@@ -22,7 +22,7 @@
   
   #### -역할분담
   <img src="https://user-images.githubusercontent.com/47634717/98065692-6a2b0a80-1e98-11eb-9166-7bea05994e56.png" width="24%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101402150-b98cac80-3916-11eb-9f80-eb772253102f.png" width="24%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101402537-37e94e80-3917-11eb-8a34-deb6e094f3a3.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98065696-6ac3a100-1e98-11eb-808d-5eff3fcafd2a.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98065682-68614700-1e98-11eb-8296-b6344fceec9a.png" width="24%"/>
 </div>
@@ -37,7 +37,7 @@
   
   #### -역할분담
   <img src="https://user-images.githubusercontent.com/47634717/98064810-8ded5100-1e96-11eb-9421-a79e40741e09.png" width="49%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101401880-4e42da80-3916-11eb-8a46-289b845451e0.png" width="49%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101402150-b98cac80-3916-11eb-9f80-eb772253102f.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101401424-af1de300-3915-11eb-95eb-d18dbda2b966.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98064828-9776b900-1e96-11eb-8c84-92ecb5e3135f.png" width="49%"/>
 </div><br/>
