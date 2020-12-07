@@ -33,11 +33,19 @@
 ### 🍰 < 오픈소스 >
 
 ### 1. 랜덤 주사위 <br/>
-##### [🎲 랜덤 주사위 오픈소스 바로가기](https://codepen.io/danbi-lee/pen/zYvomBb?editors=0110)<br/>
-🍭 색상 파스텔톤으로 변경<br/>
-🍭 floor함수 사용(0-5)으로 인해 6눈이 안나오던 현상 -> ceil 함수 사용(1-6)으로 해결 <br/>
-🍭 첫회전시 잘 안도는 경향이 있어 rolling role에 맞게 첫회전에도 많이 돌도록 transform 변경<br/>
-<img src="https://user-images.githubusercontent.com/47634717/98327064-0e968380-2036-11eb-8f26-4bea6e63ee18.png" width="40%"/><br/><br/><br/><br/>
+##### [🎲 랜덤 주사위 오픈소스 바로가기](https://codepen.io/danbi-lee/pen/zYvomBb?editors=0110)<br/><br/>
+
 ### 2. 투표시스템 <br/>
-##### [🙋‍♀️ 투표시스템 오픈소스 바로가기](https://github.com/sekharpasem/VotingSystem)<br/>
+##### [🙋‍♀️ 투표시스템 오픈소스 바로가기](https://github.com/sekharpasem/VotingSystem)<br/><br/><br/>
+
+### 🍰 < 참고서적 및 URL >
+
+### 1. 참고서적 <br/>
+##### + 명품 웹 프로그래밍 HTML+CSS3+JavaScript  (황기태 저, 생능 출판) <br/>
+##### + 성공적인 웹 프로그래밍 PHP와 MySQL (루크 웰링, 로라 톰슨 공저, 심재철 역 저, 정보문화사) <br/><br/>
+
+### 2. URL <br/>
+##### + 깃 플로우 개념 : https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html <br/>
+##### + Ip가져오기 : https://booja.blogspot.com/2013/06/ip.html <br/>
+##### + 백엔드 서버 개념 : https://shlee0882.tistory.com/107 <br/>
 
