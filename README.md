@@ -15,7 +15,7 @@
 ### 🍰 < 해시태그 버전 >
 <div>
   
-  #### -조장뽑기
+  - #### 조장뽑기
   <img src="https://user-images.githubusercontent.com/47634717/98065685-68f9dd80-1e98-11eb-839d-38104cc40844.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101401880-4e42da80-3916-11eb-8a46-289b845451e0.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98065691-69927400-1e98-11eb-8117-1f2b1a740109.png" width="24%"/>
@@ -47,7 +47,9 @@
 
 ### 🍰 < 설치 및 사용 메뉴얼 >
 <div>
+  #### -설치 메뉴얼
   <img src="https://user-images.githubusercontent.com/47634717/101400562-6fa2c700-3914-11eb-8f21-87fab01fdaa0.png" width="100%"/>
+  #### -사용 
   <img src="https://user-images.githubusercontent.com/47634717/101400565-70d3f400-3914-11eb-90ec-cfc8f7625a55.png" width="100%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400572-72052100-3914-11eb-8a17-7bd140d19599.png" width="100%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400573-73364e00-3914-11eb-8e6d-0973431ce4e3.png" width="100%"/>
