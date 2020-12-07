@@ -62,7 +62,7 @@ app.listen(3000); //localhost:80으로 서버에 접속. 자신은 3000을 들�
 
 var connInfo = {
     host     : 'localhost',   
-    port     : '3307',
+    port     : '3306',
     user     : 'roll',       
     password : '1234',     
     database : 'rollingrole'    
@@ -100,30 +100,6 @@ var postMethods = {};
 
 
 //---------
-postMethods.saveData = function(res,post){
-    
-    var sql = 'insert into tttt (name) values ("'+post.name+'")';
-    queryExecute(sql,function (error, results, fields) {
-        if (error) throw error;
-        var returnStr = '';
-        send200(res,returnStr)
-    });
-
-};
-
-postMethods.saveVote = function(res,post){
-
-    console.dir(1123);
-    
-    var sql = 'insert into info (name) values ("'+post.vote+'")';
-    queryExecute(sql,function (error, results, fields) {
-        if (error) throw error;
-        var returnStr = '';
-        send200(res,returnStr)
-    });
-
-};
-
 
 
 postMethods.save_leader = function(res,post){
@@ -138,6 +114,15 @@ postMethods.save_leader = function(res,post){
 
 postMethods.dice_num = function(res, post){
     var sql="UPDATE rollingrole.groups SET leader_num='"+post.num+"' WHERE group_info='"+post.ip+"'";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+        send200(res,returnStr)
+    });
+}
+
+postMethods.saveVote = function(res, post){
+    var sql="UPDATE rollingrole.groups SET OPINION='"+post.opinion+"' WHERE group_info='"+post.ip+"'";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         var returnStr = '';
@@ -199,6 +184,17 @@ postMethods.get_dice_num = function(res, post){
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         console.dir(results);
+        var returnStr = JSON.stringify(results);
+        send200(res,returnStr)
+    });
+}
+
+
+postMethods.get_saveVote = function(res, post){
+    var sql="select OPINION from rollingrole.groups WHERE group_info='"+post.ip+"'";
+    console.log("success");
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
         var returnStr = JSON.stringify(results);
         send200(res,returnStr)
     });
