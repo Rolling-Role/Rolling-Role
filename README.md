@@ -17,7 +17,7 @@
   
   #### -조장뽑기
   <img src="https://user-images.githubusercontent.com/47634717/98065685-68f9dd80-1e98-11eb-839d-38104cc40844.png" width="24%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/98065690-69927400-1e98-11eb-879e-8541207239f2.png" width="24%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101401880-4e42da80-3916-11eb-8a46-289b845451e0.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98065691-69927400-1e98-11eb-8117-1f2b1a740109.png" width="24%"/><br/><br/>
   
   #### -역할분담
