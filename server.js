@@ -57,7 +57,7 @@ var app = http.createServer(function(request,response){
     }
 
 });
-app.listen(80); //localhost:80으로 서버에 접속. 자신은 3000을 들을 준비가 되어있음
+app.listen(3000); //localhost:80으로 서버에 접속. 자신은 3000을 들을 준비가 되어있음
 
 
 var connInfo = {
@@ -90,8 +90,7 @@ var getData = function(param,callback){
     var sql = 'select * from example';
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
-
-        callback(results);
+          callback(results);
     });
 
 };
@@ -108,7 +107,6 @@ postMethods.saveData = function(res,post){
         var returnStr = '';
         send200(res,returnStr)
     });
-
 };
 
 postMethods.saveVote = function(res,post){
@@ -127,8 +125,6 @@ postMethods.saveVote = function(res,post){
 
 
 postMethods.save_leader = function(res,post){
-
-    
     //var returnStr = JSON.stringify(post);
 
     var returnStr = '<html><script>document.location.href="next.html";</script></html>';
