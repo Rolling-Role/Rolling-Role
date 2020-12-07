@@ -2,6 +2,9 @@ $(document).ready(function(){
     $('#start_hover').click(function(){
         window.location.href="../html/dice.html"
     });
+    $('#role_tab').click(function(){
+        window.location.href="../html/role_setting.html"
+    });
 
 var cur=3;
 $('.fake_name').click(function(){
