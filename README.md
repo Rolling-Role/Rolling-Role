@@ -42,10 +42,10 @@
 
 ### 1. 참고서적 <br/>
 + ##### 명품 웹 프로그래밍 HTML+CSS3+JavaScript  (황기태 저, 생능 출판) <br/>
-##### + 성공적인 웹 프로그래밍 PHP와 MySQL (루크 웰링, 로라 톰슨 공저, 심재철 역 저, 정보문화사) <br/><br/>
++ ##### 성공적인 웹 프로그래밍 PHP와 MySQL (루크 웰링, 로라 톰슨 공저, 심재철 역 저, 정보문화사) <br/><br/>
 
 ### 2. URL <br/>
-##### + 깃 플로우 개념 : https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html <br/>
-##### + Ip가져오기 : https://booja.blogspot.com/2013/06/ip.html <br/>
-##### + 백엔드 서버 개념 : https://shlee0882.tistory.com/107 <br/>
++ ##### 깃 플로우 개념 : https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html <br/>
++ ##### Ip가져오기 : https://booja.blogspot.com/2013/06/ip.html <br/>
++ ##### 백엔드 서버 개념 : https://shlee0882.tistory.com/107 <br/>
 
