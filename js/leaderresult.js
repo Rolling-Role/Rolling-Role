@@ -1,13 +1,15 @@
 $(document).ready(function(){
     var param={
-        group_num : 1
+        group_num : 1,
+        ip:ip()
     };
     $.post('/get_dice_num',param,function(date){
         var  dd = JSON.parse(date);
-        //console.dir(dd);
+        //console.log("adsfasdf"+date);
         $('#name').html(dd[0].leader_num+"번 팀원님이 조장입니다!");
     });
-
+        
+    
 
     $('#leader_tab').click(function(){
         window.location.href="../html/leader.html"
