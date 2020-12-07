@@ -37,8 +37,8 @@
 
 ### 2. 투표시스템 <br/>
 ##### [🙋‍♀️ 투표시스템 오픈소스 바로가기](https://github.com/sekharpasem/VotingSystem)<br/><br/><br/>
-
 <hr/>
+
 ### 🍰 < 참고서적 및 URL >
 
 ### 1. 참고서적 <br/>
