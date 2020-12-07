@@ -53,10 +53,10 @@ $(document).ready(function(){
         // console.log(clicked);
         let flag_test=String(1);
         if($('#'+clicked).attr('data-flag')===flag_test)
-         {
+        {
             $('#'+clicked).attr('src', '../rollingrole_images/check_before.png')
             $('#'+clicked).attr('data-flag','0')
-         }
+        }
         else
         {
             $('#'+clicked).attr('src', '../rollingrole_images/check_after.png')

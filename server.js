@@ -57,7 +57,7 @@ var app = http.createServer(function(request,response){
     }
 
 });
-app.listen(80); //localhost:80으로 서버에 접속. 자신은 3000을 들을 준비가 되어있음
+app.listen(3000); //localhost:80으로 서버에 접속. 자신은 3000을 들을 준비가 되어있음
 
 
 var connInfo = {
@@ -192,4 +192,14 @@ postMethods.role_name=function(res, post){
         returnStr = '';
         send200(res,returnStr)  
     });
+    
 }       
+postMethods.get_dice_num = function(res, post){
+    var sql='select leader_num from rollingrole.groups WHERE group_num=1';
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        console.dir(results);
+        var returnStr = JSON.stringify(results);
+        send200(res,returnStr)
+    });
+}
