@@ -241,3 +241,51 @@ postMethods.check=function(res, post){
     });
     
 } 
+
+postMethods.get_check = function(res, post){
+    var sql='select mem_name from rollingrole.members WHERE group_num=1';
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        console.dir(results);
+        var returnStr = JSON.stringify(results);
+        send200(res,returnStr)
+    });
+}
+postMethods.get_check_score1 = function(res, post){
+    var sql='select mem_name,role1_score from rollingrole.members WHERE group_num=1';
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        console.dir(results);
+        var returnStr = JSON.stringify(results);
+        send200(res,returnStr)
+    });
+}
+postMethods.get_check_score2 = function(res, post){
+    var sql='select mem_name,role2_score from rollingrole.members WHERE group_num=1';
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        console.dir(results);
+        var returnStr = JSON.stringify(results);
+        send200(res,returnStr)
+    });
+}
+postMethods.get_check_score3 = function(res, post){
+    var sql='select mem_name,role3_score from rollingrole.members WHERE group_num=1';
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        console.dir(results);
+        var returnStr = JSON.stringify(results);
+        send200(res,returnStr)
+    });
+}
+postMethods.get_check_score4 = function(res, post){
+    var sql='select mem_name,role4_score from rollingrole.members WHERE group_num=1';
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        console.dir(results);
+        var returnStr = JSON.stringify(results);
+        send200(res,returnStr)
+    });
+}
+
+
