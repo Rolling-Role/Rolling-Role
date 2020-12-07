@@ -10,7 +10,7 @@
   팀 프로젝트를 위해 역할 분배를 할 경우, 쉬운 역할에 대해서는 많은 팀원들이 하기를 원하고, 반대로 어렵거나 귀찮은 작업에 대해서는 선호하지 않습니다.<br/>
 또한 팀원 개개인들이 잘 하는 분야와 **역량**이 다르기 때문에 역할 분배를 효율적으로 해야 능률이 좋은 팀이 될 수 있습니다.<br/>
 그래서 저희 프로그램에서는 팀원들의 역량을 바탕으로 각각의 역할을 배분해주는 기능을 제공합니다.<br/>
-<hr/>
+
 
 ### 🍰 < 해시태그 버전 >
 <div>
@@ -44,10 +44,16 @@
 <hr/>
 
 ### 🍰 < 설치 및 사용 메뉴얼 >
-  <img src="https://user-images.githubusercontent.com/47634717/98064810-8ded5100-1e96-11eb-9421-a79e40741e09.png" width="49%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/98064818-934a9b80-1e96-11eb-8668-956b1bfb0214.png" width="49%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/98064785-7ca44480-1e96-11eb-8841-bf0e0c2b8d1f.png" width="49%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/98064828-9776b900-1e96-11eb-8c84-92ecb5e3135f.png" width="49%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400562-6fa2c700-3914-11eb-8f21-87fab01fdaa0.png" width="10%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400565-70d3f400-3914-11eb-90ec-cfc8f7625a55.png" width="10%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400572-72052100-3914-11eb-8a17-7bd140d19599.png" width="10%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400573-73364e00-3914-11eb-8e6d-0973431ce4e3.png" width="10%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400576-76313e80-3914-11eb-8cc9-83c5ed9e3bef.png" width="10%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400581-77fb0200-3914-11eb-80fd-1c4a13a4916a.png" width="10%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400599-7af5f280-3914-11eb-9ccf-61a4283919bc.png" width="10%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400602-7d584c80-3914-11eb-9542-fd41ca4fa5de.png" width="10%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400613-7fbaa680-3914-11eb-8878-e516f39e2111.png" width="10%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400617-80ebd380-3914-11eb-96eb-1425cf5fab5f.png" width="10%"/>
 <hr/>
 
 ### 🍰 < 오픈소스 >
