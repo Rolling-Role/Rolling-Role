@@ -57,12 +57,12 @@ var app = http.createServer(function(request,response){
     }
 
 });
-app.listen(80); //localhost:80으로 서버에 접속. 자신은 3000을 들을 준비가 되어있음
+app.listen(3000); //localhost:80으로 서버에 접속. 자신은 3000을 들을 준비가 되어있음
 
 
 var connInfo = {
     host     : 'localhost',   
-    port     : '3307',
+    port     : '3306',
     user     : 'roll',       
     password : '1234',     
     database : 'rollingrole'    
@@ -144,6 +144,17 @@ postMethods.dice_num = function(res, post){
         send200(res,returnStr)
     });
 }
+
+postMethods.saveVote = function(res, post){
+    var sql="UPDATE rollingrole.groups SET OPINION='"+post.opinion+"' WHERE group_info='"+post.ip+"'";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+        send200(res,returnStr)
+    });
+}
+
+
 
 postMethods.role_name=function(res, post){
     var sql="UPDATE roles SET role_name='"+post.role_name1+"', do_num="+post.do_num1+" WHERE (group_num=(SELECT group_num FROM groups WHERE group_info='"+post.ip+"') && role_num=1)";

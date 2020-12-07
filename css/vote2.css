@@ -2,7 +2,6 @@ body{background-color: #FFF2CC;min-width:800px;}
 .innerframe { 
     position:relative;
     background-color: #FFFFFF;
-    background-image: url(vote2.png);
     background-size: cover;
     border:#FFFFFF solid 1px; 
     width:40%; min-height:300px;
