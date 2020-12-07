@@ -35,7 +35,7 @@
   <img src="https://user-images.githubusercontent.com/47634717/98064781-7ada8100-1e96-11eb-90ba-2a5684db9516.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101401424-af1de300-3915-11eb-95eb-d18dbda2b966.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98064786-7f9f3500-1e96-11eb-9d4d-d93e8c61947b.png" width="49%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101403363-7c291e80-3918-11eb-9e41-b3f72d7367f9.png" width="51%"/> <br/><br/>
+  <img src="https://user-images.githubusercontent.com/47634717/101403363-7c291e80-3918-11eb-9e41-b3f72d7367f9.png" width="50%"/> <br/><br/>
   
   #### -역할분담
   <img src="https://user-images.githubusercontent.com/47634717/98064810-8ded5100-1e96-11eb-9421-a79e40741e09.png" width="49%"/>
