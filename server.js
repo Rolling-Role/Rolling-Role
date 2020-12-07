@@ -62,7 +62,7 @@ app.listen(3000); //localhost:80으로 서버에 접속. 자신은 3000을 들�
 
 var connInfo = {
     host     : 'localhost',   
-    port     : '3306',
+    port     : '3307',
     user     : 'roll',       
     password : '1234',     
     database : 'rollingrole'    
@@ -131,47 +131,47 @@ postMethods.saveVote = function(res, post){
 }
 
 postMethods.role_name=function(res, post){
-    var sql="UPDATE roles SET role_name='"+post.role_name1+"', do_num="+post.do_num1+" WHERE (group_num=(SELECT group_num FROM groups WHERE group_info='"+post.ip+"') && role_num=1)";
+    var sql="UPDATE roles SET role_name='"+post.role_name1+"', do_num="+post.do_num1+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && role_num=1)";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         var returnStr = '';
     }); 
-    sql="UPDATE roles SET role_name='"+post.role_name2+"', do_num="+post.do_num2+" WHERE (group_num=(SELECT group_num FROM groups WHERE group_info='"+post.ip+"') && role_num=2)";
+    sql="UPDATE roles SET role_name='"+post.role_name2+"', do_num="+post.do_num2+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && role_num=2)";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         returnStr = '';
     }); 
-    sql="UPDATE roles SET role_name='"+post.role_name3+"', do_num="+post.do_num3+" WHERE (group_num=(SELECT group_num FROM groups WHERE group_info='"+post.ip+"') && role_num=3)";
+    sql="UPDATE roles SET role_name='"+post.role_name3+"', do_num="+post.do_num3+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && role_num=3)";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         returnStr = '';
     }); 
-    sql="UPDATE roles SET role_name='"+post.role_name4+"', do_num="+post.do_num4+" WHERE (group_num=(SELECT group_num FROM groups WHERE group_info='"+post.ip+"') && role_num=4)";
+    sql="UPDATE roles SET role_name='"+post.role_name4+"', do_num="+post.do_num4+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && role_num=4)";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         returnStr = '';
     }); 
-    sql="UPDATE roles SET role_name='"+post.role_name5+"', do_num="+post.do_num5+" WHERE (group_num=(SELECT group_num FROM groups WHERE group_info='"+post.ip+"') && role_num=5)";
+    sql="UPDATE roles SET role_name='"+post.role_name5+"', do_num="+post.do_num5+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && role_num=5)";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         returnStr = '';
     }); 
-    sql="UPDATE roles SET role_name='"+post.role_name6+"', do_num="+post.do_num6+" WHERE (group_num=(SELECT group_num FROM groups WHERE group_info='"+post.ip+"') && role_num=6)";
+    sql="UPDATE roles SET role_name='"+post.role_name6+"', do_num="+post.do_num6+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && role_num=6)";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         returnStr = '';
     }); 
-    sql="UPDATE roles SET role_name='"+post.role_name7+"', do_num="+post.do_num7+" WHERE (group_num=(SELECT group_num FROM groups WHERE group_info='"+post.ip+"') && role_num=7)";
+    sql="UPDATE roles SET role_name='"+post.role_name7+"', do_num="+post.do_num7+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && role_num=7)";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         returnStr = '';
     }); 
-    sql="UPDATE roles SET role_name='"+post.role_name8+"', do_num="+post.do_num8+" WHERE (group_num=(SELECT group_num FROM groups WHERE group_info='"+post.ip+"') && role_num=8)";
+    sql="UPDATE roles SET role_name='"+post.role_name8+"', do_num="+post.do_num8+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && role_num=8)";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         returnStr = '';
     }); 
-    sql="UPDATE roles SET role_name='"+post.role_name9+"', do_num="+post.do_num9+" WHERE (group_num=(SELECT group_num FROM groups WHERE group_info='"+post.ip+"') && role_num=9)";
+    sql="UPDATE roles SET role_name='"+post.role_name9+"', do_num="+post.do_num9+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && role_num=9)";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         returnStr = '';
@@ -189,7 +189,6 @@ postMethods.get_dice_num = function(res, post){
     });
 }
 
-
 postMethods.get_saveVote = function(res, post){
     var sql="select OPINION from rollingrole.groups WHERE group_info='"+post.ip+"'";
     console.log("success");
@@ -199,3 +198,27 @@ postMethods.get_saveVote = function(res, post){
         send200(res,returnStr)
     });
 }
+postMethods.check=function(res, post){
+    var sql="UPDATE rollingrole.members SET role1_score="+post.searchAdd+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_name= '"+post.mem_name+"')";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    }); 
+    sql="UPDATE rollingrole.members SET role2_score="+post.pptAdd+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_name= '"+post.mem_name+"')";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        returnStr = '';
+    }); 
+    sql="UPDATE rollingrole.members SET role3_score="+post.announAdd+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_name= '"+post.mem_name+"')";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        returnStr = '';
+    }); 
+    sql="UPDATE rollingrole.members SET role4_score="+post.reportAdd+" WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_name= '"+post.mem_name+"')";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        returnStr = '';
+        send200(res,returnStr);  
+    });
+    
+} 
