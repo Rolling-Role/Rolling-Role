@@ -45,14 +45,14 @@
 
 ### 🍰 < 설치 및 사용 메뉴얼 >
 <div>
-  <img src="https://user-images.githubusercontent.com/47634717/101400562-6fa2c700-3914-11eb-8f21-87fab01fdaa0.png" width="49%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400562-6fa2c700-3914-11eb-8f21-87fab01fdaa0.png" width="100%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400565-70d3f400-3914-11eb-90ec-cfc8f7625a55.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400572-72052100-3914-11eb-8a17-7bd140d19599.png" width="49%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101400573-73364e00-3914-11eb-8e6d-0973431ce4e3.png" width="49%"/><br/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400573-73364e00-3914-11eb-8e6d-0973431ce4e3.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400576-76313e80-3914-11eb-8cc9-83c5ed9e3bef.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400581-77fb0200-3914-11eb-80fd-1c4a13a4916a.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400599-7af5f280-3914-11eb-9ccf-61a4283919bc.png" width="49%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101400602-7d584c80-3914-11eb-9542-fd41ca4fa5de.png" width="49%"/><br/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400602-7d584c80-3914-11eb-9542-fd41ca4fa5de.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400613-7fbaa680-3914-11eb-8878-e516f39e2111.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400617-80ebd380-3914-11eb-96eb-1425cf5fab5f.png" width="49%"/>
   </div>
