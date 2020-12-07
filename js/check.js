@@ -2,11 +2,14 @@ $(document).ready(function(){
   $('#leader_tab').click(function(){
     document.location.href="leader.html";
   });
+  $('#start_img').click(function(){
+    document.location.href="rolefinish.html";
+  });
   $('#role_tab').click(function(){
-    document.location.href="./role_setting/role_setting.html";
+    document.location.href="role_setting.html";
   });
   $('#arrow_left').click(function(){
-    document.location.href="./role_setting/role_setting.html";
+    document.location.href="role_setting.html";
   });
   $('#arrow_right').click(function(){
     document.location.href="check.html";
