@@ -74,6 +74,8 @@ hr{
 }
 #leader_name{
   position: absolute;
+  width: 200px;
+  margin-left: -17.5%;
   float: left;
   color: #acacac;
   font-weight: 500;
@@ -81,8 +83,7 @@ hr{
   z-index: 3;
   text-align: center;
   background-color: #FFFDE5;
-  margin-left: -20%;
-  margin-top: 4%;
+  margin-top: 3.5%;
   border: none;
 }
 #title_logo{

@@ -19,10 +19,11 @@ body{background-color: #FFF2CC;min-width:800px;}
 .teamname{position:relative;float:left;z-index:100;color:#858585;
     font-weight:500;font-size:1.2vw;
     margin-top:3.2%}
-#name1{margin-left:-20.5%}
-#name2{margin-left:-20.5%;}
-#name3{margin-left:-20.5%}
-#name4{margin-left:-20.5%}
+#name1{margin-left:-18.5%}
+#name2{margin-left:-18.5%;}
+#name3{margin-left:-18.5%}
+#name4{margin-left:-18.5%}
 
 .diamond_set{position:relative;float:left;margin-top:10%;margin-bottom:5%;margin-left: -25%;}
-.role{position:relative;float:left;margin-top:10.2%;margin-bottom:5%;margin-left: -22%;}
+.role{position:relative;float:left;margin-top:10.2%;margin-bottom:5%;margin-left: -23%;font-size: 25px;}
+.role1{position:relative;float:left;margin-top:10.2%;margin-bottom:5%;margin-left: -18%;font-size: 25px;}
