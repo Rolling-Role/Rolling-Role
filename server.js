@@ -227,7 +227,7 @@ postMethods.check=function(res, post){
 } 
 
 postMethods.get_check = function(res, post){
-    var sql="select mem_name from rollingrole.members WHERE group_info='"+post.ip+"'";
+    var sql="select mem_name from rollingrole.members WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"'))";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         console.dir(results);
@@ -236,7 +236,7 @@ postMethods.get_check = function(res, post){
     });
 }
 postMethods.get_check_score1 = function(res, post){
-    var sql="select mem_name,role1_score from rollingrole.members WHERE group_info='"+post.ip+"'";
+    var sql="select mem_name,role1_score from rollingrole.members WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"'))";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         console.dir(results);
@@ -245,7 +245,7 @@ postMethods.get_check_score1 = function(res, post){
     });
 }
 postMethods.get_check_score2 = function(res, post){
-    var sql="select mem_name,role2_score from rollingrole.members WHERE group_info='"+post.ip+"'";
+    var sql="select mem_name,role2_score from rollingrole.members WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"'))";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         console.dir(results);
@@ -254,7 +254,7 @@ postMethods.get_check_score2 = function(res, post){
     });
 }
 postMethods.get_check_score3 = function(res, post){
-    var sql="select mem_name,role3_score from rollingrole.members WHERE group_info='"+post.ip+"'";
+    var sql="select mem_name,role3_score from rollingrole.members WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"'))";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         console.dir(results);
@@ -263,7 +263,7 @@ postMethods.get_check_score3 = function(res, post){
     });
 }
 postMethods.get_check_score4 = function(res, post){
-    var sql="select mem_name,role4_score from rollingrole.members WHERE group_info='"+post.ip+"'";
+    var sql="select mem_name,role4_score from rollingrole.members WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"'))";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         console.dir(results);
@@ -271,5 +271,61 @@ postMethods.get_check_score4 = function(res, post){
         send200(res,returnStr)
     });
 }
+postMethods.add_mem = function(res, post){
+    var sql="UPDATE rollingrole.members SET mem_name='"+post.mem1+"' WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_num=1)";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    }); 
 
+    sql="UPDATE rollingrole.members SET mem_name='"+post.mem2+"' WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_num=2)";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    }); 
+
+    sql="UPDATE rollingrole.members SET mem_name='"+post.mem3+"' WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_num=3)";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    }); 
+
+    sql="UPDATE rollingrole.members SET mem_name='"+post.mem4+"'WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_num=4)";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    }); 
+
+    sql="UPDATE rollingrole.members SET mem_name='"+post.mem5+"' WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_num=5)";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    }); 
+
+    sql="UPDATE rollingrole.members SET mem_name='"+post.mem6+"' WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_num=6)";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    }); 
+
+    sql="UPDATE rollingrole.members SET mem_name='"+post.mem7+"' WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_num=7)";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    }); 
+
+    sql="UPDATE rollingrole.members SET mem_name='"+post.mem8+"' WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_num=8)";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+    }); 
+
+    sql="UPDATE rollingrole.members SET mem_name='"+post.mem9+"' WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"') && mem_num=9)";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+        send200(res,returnStr)
+    }); 
+    
+}
 
