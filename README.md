@@ -32,13 +32,13 @@
   
   #### -조장뽑기
   <img src="https://user-images.githubusercontent.com/47634717/98064781-7ada8100-1e96-11eb-90ba-2a5684db9516.png" width="49%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/98064785-7ca44480-1e96-11eb-8841-bf0e0c2b8d1f.png" width="49%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101401424-af1de300-3915-11eb-95eb-d18dbda2b966.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98064786-7f9f3500-1e96-11eb-9d4d-d93e8c61947b.png" width="49%"/><br/><br/>
   
   #### -역할분담
   <img src="https://user-images.githubusercontent.com/47634717/98064810-8ded5100-1e96-11eb-9421-a79e40741e09.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98064818-934a9b80-1e96-11eb-8668-956b1bfb0214.png" width="49%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/98064785-7ca44480-1e96-11eb-8841-bf0e0c2b8d1f.png" width="49%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101401424-af1de300-3915-11eb-95eb-d18dbda2b966.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98064828-9776b900-1e96-11eb-8c84-92ecb5e3135f.png" width="49%"/>
 </div><br/>
 <hr/>
