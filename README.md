@@ -40,22 +40,22 @@
   <img src="https://user-images.githubusercontent.com/47634717/98064818-934a9b80-1e96-11eb-8668-956b1bfb0214.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98064785-7ca44480-1e96-11eb-8841-bf0e0c2b8d1f.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98064828-9776b900-1e96-11eb-8c84-92ecb5e3135f.png" width="49%"/>
-</div>
+</div><br/>
 <hr/>
 
 ### 🍰 < 설치 및 사용 메뉴얼 >
 <div>
-  <img src="https://user-images.githubusercontent.com/47634717/101400562-6fa2c700-3914-11eb-8f21-87fab01fdaa0.png" width="80%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101400565-70d3f400-3914-11eb-90ec-cfc8f7625a55.png" width="80%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101400572-72052100-3914-11eb-8a17-7bd140d19599.png" width="80%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101400573-73364e00-3914-11eb-8e6d-0973431ce4e3.png" width="80%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101400576-76313e80-3914-11eb-8cc9-83c5ed9e3bef.png" width="80%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101400581-77fb0200-3914-11eb-80fd-1c4a13a4916a.png" width="80%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101400599-7af5f280-3914-11eb-9ccf-61a4283919bc.png" width="80%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101400602-7d584c80-3914-11eb-9542-fd41ca4fa5de.png" width="80%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101400613-7fbaa680-3914-11eb-8878-e516f39e2111.png" width="80%"/>
-  <img src="https://user-images.githubusercontent.com/47634717/101400617-80ebd380-3914-11eb-96eb-1425cf5fab5f.png" width="80%"/>
-  </div>
+  <img src="https://user-images.githubusercontent.com/47634717/101400562-6fa2c700-3914-11eb-8f21-87fab01fdaa0.png" width="95%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400565-70d3f400-3914-11eb-90ec-cfc8f7625a55.png" width="95%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400572-72052100-3914-11eb-8a17-7bd140d19599.png" width="95%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400573-73364e00-3914-11eb-8e6d-0973431ce4e3.png" width="95%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400576-76313e80-3914-11eb-8cc9-83c5ed9e3bef.png" width="95%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400581-77fb0200-3914-11eb-80fd-1c4a13a4916a.png" width="95%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400599-7af5f280-3914-11eb-9ccf-61a4283919bc.png" width="95%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400602-7d584c80-3914-11eb-9542-fd41ca4fa5de.png" width="95%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400613-7fbaa680-3914-11eb-8878-e516f39e2111.png" width="95%"/>
+  <img src="https://user-images.githubusercontent.com/47634717/101400617-80ebd380-3914-11eb-96eb-1425cf5fab5f.png" width="95%"/>
+  </div><br/>
 <hr/>
 
 ### 🍰 < 오픈소스 >
