@@ -1,5 +1,5 @@
 # Rolling-Role-Frontend <br/>
-## 🍰 < 프로젝트 소개 >
+### 🍰 < 프로젝트 소개 >
   <img src="https://user-images.githubusercontent.com/47634717/101400171-d7a4dd80-3913-11eb-937c-39f8e9070371.png" width="10%"/><br/>
   **RollingRole**은 프로그램은 대학 생활 중, **조별 과제**를 해야 하는 상황이 올 때 유용한 프로그램입니다.<br/>
 조별 과제를 진행할 때 크게 **팀장을 선출**해야 하거나, **역할 분배**를 할 상황에 각자의 마음에 들지 않아 불만이 생기는 경우가 자주 있습니다. <br/><br/>
@@ -12,32 +12,32 @@
 그래서 저희 프로그램에서는 팀원들의 역량을 바탕으로 각각의 역할을 배분해주는 기능을 제공합니다.<br/>
 <hr/>
 
-## 🍰 < 해시태그 버전 >
+### 🍰 < 해시태그 버전 >
 <div>
   
-  + ### 조장뽑기
+  + #### 조장뽑기
   <img src="https://user-images.githubusercontent.com/47634717/98065685-68f9dd80-1e98-11eb-839d-38104cc40844.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101401880-4e42da80-3916-11eb-8a46-289b845451e0.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98065691-69927400-1e98-11eb-8117-1f2b1a740109.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101403368-7d5a4b80-3918-11eb-9115-e3332665e349.png" width="24%"/><br/><br/>
   
-  + ### 역할분담
+  + #### 역할분담
   <img src="https://user-images.githubusercontent.com/47634717/98065692-6a2b0a80-1e98-11eb-9166-7bea05994e56.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101402537-37e94e80-3917-11eb-8a34-deb6e094f3a3.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98065696-6ac3a100-1e98-11eb-808d-5eff3fcafd2a.png" width="24%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98065682-68614700-1e98-11eb-8296-b6344fceec9a.png" width="24%"/>
 </div>
 
-## 🍰 < 웹 버전 >
+### 🍰 < 웹 버전 >
 <div>
   
-  + ### 조장뽑기
+  + #### 조장뽑기
   <img src="https://user-images.githubusercontent.com/47634717/98064781-7ada8100-1e96-11eb-90ba-2a5684db9516.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101401424-af1de300-3915-11eb-95eb-d18dbda2b966.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/98064786-7f9f3500-1e96-11eb-9d4d-d93e8c61947b.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101403685-ecd03b00-3918-11eb-81ab-aeb7ea73832a.png" width="49%"/> <br/><br/>
   
-  + ### 역할분담
+  + #### 역할분담
   <img src="https://user-images.githubusercontent.com/47634717/98064810-8ded5100-1e96-11eb-9421-a79e40741e09.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101402150-b98cac80-3916-11eb-9f80-eb772253102f.png" width="49%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101401424-af1de300-3915-11eb-95eb-d18dbda2b966.png" width="49%"/>
@@ -45,7 +45,7 @@
 </div><br/>
 <hr/>
 
-## 🍰 < 설치 및 사용 메뉴얼 >
+### 🍰 < 설치 및 사용 메뉴얼 >
 <div>
   
   + ### 설치 메뉴얼
@@ -64,22 +64,22 @@
   </div><br/>
 <hr/>
 
-## 🍰 < 오픈소스 >
+### 🍰 < 오픈소스 >
 
-## 1. 랜덤 주사위 <br/>
+### 1. 랜덤 주사위 <br/>
 ##### [🎲 랜덤 주사위 오픈소스 바로가기](https://codepen.io/danbi-lee/pen/zYvomBb?editors=0110)<br/><br/>
 
-## 2. 투표시스템 <br/>
+### 2. 투표시스템 <br/>
 ##### [🙋‍♀️ 투표시스템 오픈소스 바로가기](https://github.com/sekharpasem/VotingSystem)<br/><br/><br/>
 <hr/>
 
-## 🍰 < 참고서적 및 URL >
+### 🍰 < 참고서적 및 URL >
 
-## 1. 참고서적 <br/>
+### 1. 참고서적 <br/>
 + ##### 명품 웹 프로그래밍 HTML+CSS3+JavaScript  (황기태 저, 생능 출판) <br/>
 + ##### 성공적인 웹 프로그래밍 PHP와 MySQL (루크 웰링, 로라 톰슨 공저, 심재철 역 저, 정보문화사) <br/><br/>
 
-## 2. URL <br/>
+### 2. URL <br/>
 + ##### 깃 플로우 개념 : https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html <br/>
 + ##### Ip가져오기 : https://booja.blogspot.com/2013/06/ip.html <br/>
 + ##### 백엔드 서버 개념 : https://shlee0882.tistory.com/107 <br/>
