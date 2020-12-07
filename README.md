@@ -48,10 +48,10 @@
 ### 🍰 < 설치 및 사용 메뉴얼 >
 <div>
   
-  + ### 설치 메뉴얼
+  + #### 설치 메뉴얼
   <img src="https://user-images.githubusercontent.com/47634717/101400562-6fa2c700-3914-11eb-8f21-87fab01fdaa0.png" width="100%"/><br/><br/>
   
-  + ### 사용 
+  + #### 사용 
   <img src="https://user-images.githubusercontent.com/47634717/101400565-70d3f400-3914-11eb-90ec-cfc8f7625a55.png" width="100%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400572-72052100-3914-11eb-8a17-7bd140d19599.png" width="100%"/>
   <img src="https://user-images.githubusercontent.com/47634717/101400573-73364e00-3914-11eb-8e6d-0973431ce4e3.png" width="100%"/>
