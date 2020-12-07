@@ -90,8 +90,7 @@ var getData = function(param,callback){
     var sql = 'select * from example';
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
-
-        callback(results);
+          callback(results);
     });
 
 };
@@ -99,12 +98,32 @@ var getData = function(param,callback){
 var postMethods = {};
 
 
-//---------
+postMethods.saveData = function(res,post){
+    
+    var sql = 'insert into tttt (name) values ("'+post.name+'")';
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+        send200(res,returnStr)
+    });
+};
+
+postMethods.saveVote = function(res,post){
+
+    console.dir(1123);
+    
+    var sql = 'insert into info (name) values ("'+post.vote+'")';
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+        send200(res,returnStr)
+    });
+
+};
+
 
 
 postMethods.save_leader = function(res,post){
-
-    
     //var returnStr = JSON.stringify(post);
 
     var returnStr = '<html><script>document.location.href="next.html";</script></html>';
