@@ -1,4 +1,4 @@
-# Rolling-Role-Frontend <br/>
+# Rolling-Role <br/>
 ### 🍰 < 프로젝트 소개 >
   <img src="https://user-images.githubusercontent.com/47634717/101400171-d7a4dd80-3913-11eb-937c-39f8e9070371.png" width="10%"/><br/>
 **RollingRole**은 프로그램은 대학 생활 중, **조별 과제**를 해야 하는 상황이 올 때 유용한 프로그램입니다. 조별과제를 진행할 때 크게 **팀장을 선출**해야 하거나,**역할 분배**를 할 상황에 각자의 마음에 들지 않아 불만이 생기는 경우가 자주 있습니다. <br/><br/>
