@@ -5,7 +5,8 @@ var tempAnnoun;
 
 $(document).ready(function(){
     var param={
-        group_num : 1
+        group_num : 1,
+        ip:ip()
     };
     $.post('/get_check',param,function(date){
         var  dd = JSON.parse(date);
@@ -17,7 +18,8 @@ $(document).ready(function(){
     });
 
     var param={
-        group_num : 1
+        group_num : 1,
+        ip:ip()
     };
     $.post('/get_check_score1',param,function(date){
         var dd = JSON.parse(date);
@@ -38,7 +40,8 @@ $(document).ready(function(){
         $('#mainrole'+(tempSearch+1)).html('자료조사');
     });
     var param={
-        group_num : 1
+        group_num : 1,
+        ip:ip()
     };
     $.post('/get_check_score2',param,function(date){
         var dd = JSON.parse(date);
@@ -62,7 +65,8 @@ $(document).ready(function(){
         $('#mainrole'+(tempPpt+1)).html('PPT');
     });
     var param={
-        group_num : 1
+        group_num : 1,
+        ip:ip()
     };
     $.post('/get_check_score3',param,function(date){
         var dd = JSON.parse(date);
@@ -85,7 +89,8 @@ $(document).ready(function(){
         $('#mainrole'+(tempAnnoun+1)).html('발표');
     });
     var param={
-        group_num : 1
+        group_num : 1,
+        ip:ip()
     };
     $.post('/get_check_score4',param,function(date){
         var dd = JSON.parse(date);

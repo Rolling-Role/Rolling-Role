@@ -98,31 +98,6 @@ var getData = function(param,callback){
 var postMethods = {};
 
 
-postMethods.saveData = function(res,post){
-    
-    var sql = 'insert into tttt (name) values ("'+post.name+'")';
-    queryExecute(sql,function (error, results, fields) {
-        if (error) throw error;
-        var returnStr = '';
-        send200(res,returnStr)
-    });
-};
-
-postMethods.saveVote = function(res,post){
-
-    console.dir(1123);
-    
-    var sql = 'insert into info (name) values ("'+post.vote+'")';
-    queryExecute(sql,function (error, results, fields) {
-        if (error) throw error;
-        var returnStr = '';
-        send200(res,returnStr)
-    });
-
-};
-
-
-
 postMethods.save_leader = function(res,post){
     //var returnStr = JSON.stringify(post);
 
@@ -130,6 +105,15 @@ postMethods.save_leader = function(res,post){
     send200(res,returnStr);
 
 };
+
+postMethods.add_group = function(res, post){
+    var sql="UPDATE rollingrole.groups SET leader_num='"+post.num+"' WHERE group_info='"+post.ip+"'";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        var returnStr = '';
+        send200(res,returnStr)
+    });
+}
 
 postMethods.dice_num = function(res, post){
     var sql="UPDATE rollingrole.groups SET leader_num='"+post.num+"' WHERE group_info='"+post.ip+"'";
@@ -199,7 +183,7 @@ postMethods.role_name=function(res, post){
     
 }       
 postMethods.get_dice_num = function(res, post){
-    var sql='select leader_num from rollingrole.groups WHERE group_num=1';
+    var sql="select leader_num from rollingrole.groups WHERE group_info='"+post.ip+"'";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         console.dir(results);
@@ -243,7 +227,7 @@ postMethods.check=function(res, post){
 } 
 
 postMethods.get_check = function(res, post){
-    var sql='select mem_name from rollingrole.members WHERE group_num=1';
+    var sql="select mem_name from rollingrole.members WHERE group_info='"+post.ip+"'";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         console.dir(results);
@@ -252,7 +236,7 @@ postMethods.get_check = function(res, post){
     });
 }
 postMethods.get_check_score1 = function(res, post){
-    var sql='select mem_name,role1_score from rollingrole.members WHERE group_num=1';
+    var sql="select mem_name,role1_score from rollingrole.members WHERE group_info='"+post.ip+"'";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         console.dir(results);
@@ -261,7 +245,7 @@ postMethods.get_check_score1 = function(res, post){
     });
 }
 postMethods.get_check_score2 = function(res, post){
-    var sql='select mem_name,role2_score from rollingrole.members WHERE group_num=1';
+    var sql="select mem_name,role2_score from rollingrole.members WHERE group_info='"+post.ip+"'";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         console.dir(results);
@@ -270,7 +254,7 @@ postMethods.get_check_score2 = function(res, post){
     });
 }
 postMethods.get_check_score3 = function(res, post){
-    var sql='select mem_name,role3_score from rollingrole.members WHERE group_num=1';
+    var sql="select mem_name,role3_score from rollingrole.members WHERE group_info='"+post.ip+"'";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         console.dir(results);
@@ -279,7 +263,7 @@ postMethods.get_check_score3 = function(res, post){
     });
 }
 postMethods.get_check_score4 = function(res, post){
-    var sql='select mem_name,role4_score from rollingrole.members WHERE group_num=1';
+    var sql="select mem_name,role4_score from rollingrole.members WHERE group_info='"+post.ip+"'";
     queryExecute(sql,function (error, results, fields) {
         if (error) throw error;
         console.dir(results);

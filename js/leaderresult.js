@@ -1,6 +1,7 @@
 $(document).ready(function(){
     var param={
-        group_num : 1
+        group_num : 1,
+        ip:ip()
     };
     $.post('/get_dice_num',param,function(date){
         var  dd = JSON.parse(date);
