@@ -1,5 +1,5 @@
 /*반드시 user.sql을 먼저 실행하여 사용자와 데이터베이스부터 만든 후 아래의 
-내용을 보고 실행해주세요*/
+내용을 보고 219.255.158.170 이 숫자에 자신의 아이피를 직접 넣어 실행해주세요*/
 CREATE TABLE groups(
    group_num INT AUTO_INCREMENT NOT NULL,
    group_info VARCHAR(100),
@@ -39,12 +39,12 @@ INSERT INTO roles VALUES(219.255.158.170, 8, ' ', 1);
 INSERT INTO roles VALUES(219.255.158.170, 9, ' ', 1);
 
 INSERT INTO members VALUES(219.255.158.170,1,'','','','','');
-INSERT INTO members VALUES(219.255.158.170,1,'','','','','');
-INSERT INTO members VALUES(219.255.158.170,1,'','','','','');
-INSERT INTO members VALUES(219.255.158.170,1,'','','','','');
-INSERT INTO members VALUES(219.255.158.170,1,'','','','','');
-INSERT INTO members VALUES(219.255.158.170,1,'','','','','');
-INSERT INTO members VALUES(219.255.158.170,1,'','','','','');
-INSERT INTO members VALUES(219.255.158.170,1,'','','','','');
-INSERT INTO members VALUES(219.255.158.170,1,'','','','','');
+INSERT INTO members VALUES(219.255.158.170,2,'','','','','');
+INSERT INTO members VALUES(219.255.158.170,3,'','','','','');
+INSERT INTO members VALUES(219.255.158.170,4,'','','','','');
+INSERT INTO members VALUES(219.255.158.170,5,'','','','','');
+INSERT INTO members VALUES(219.255.158.170,6,'','','','','');
+INSERT INTO members VALUES(219.255.158.170,7,'','','','','');
+INSERT INTO members VALUES(219.255.158.170,8,'','','','','');
+INSERT INTO members VALUES(219.255.158.170,9,'','','','','');
 
