@@ -328,4 +328,13 @@ postMethods.add_mem = function(res, post){
     }); 
     
 }
+postMethods.get_member = function(res, post){
+    var sql="select mem_num,mem_name from rollingrole.members WHERE (group_num=(SELECT group_num FROM rollingrole.groups WHERE group_info='"+post.ip+"'))";
+    queryExecute(sql,function (error, results, fields) {
+        if (error) throw error;
+        console.dir(results);
+        var returnStr = JSON.stringify(results);
+        send200(res,returnStr)
+    });
+}
 
