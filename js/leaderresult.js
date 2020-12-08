@@ -5,11 +5,27 @@ $(document).ready(function(){
     };
     $.post('/get_dice_num',param,function(date){
         var  dd = JSON.parse(date);
-        //console.log("adsfasdf"+date);
-        $('#name').html(dd[0].leader_num+"번 팀원님이 조장입니다!");
+        eee = dd[0].leader_num;
     });
+    var eee;
+
+    $.post('/get_member',param,function(date){
+        var  dd = JSON.parse(date);
+        if(eee==dd[0].mem_num){
+            $('#name').html(dd[0].mem_name+"님 조장 당첨!");
+        }
+        else if(eee==dd[1].mem_num){
+            $('#name').html(dd[1].mem_name+"님 조장 당첨!");
+        }
+        else if(eee==dd[2].mem_num){
+            $('#name').html(dd[2].mem_name+"님 조장 당첨!");
+        }
+        else if(eee==dd[3].mem_num){
+            $('#name').html(dd[3].mem_name+"님 조장 당첨!");
+        }
+    });
+
         
-    
 
     $('#leader_tab').click(function(){
         window.location.href="../html/leader.html"
