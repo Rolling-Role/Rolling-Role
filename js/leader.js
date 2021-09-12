@@ -31,7 +31,7 @@ $(document).ready(function(){
     });
 
     var cur=3;
-    $('.fake_name').click(function(){
+    $('.fake_name').click(function get_dice_num(){
         if($('#fake_name'+cur).attr('data-flag')=='0')
         {
             $('#fake_name'+cur).attr('data-flag', '1')
