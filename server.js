@@ -3,7 +3,11 @@ var http = require('http');
 var fs = require('fs');
 var qs = require('querystring');
 var mysql = require('mysql');
-var app = http.createServer(function(request,response){
+var server = http.createServer(function(request,response){
+    response.writeHead(200,{'Content-Type':'text/html'});
+    response.end('Hello node.js!!');
+});
+
     var url = request.url; //내가 처리하고싶은 url
 
 
@@ -55,9 +59,7 @@ var app = http.createServer(function(request,response){
             // use post['blah'], etc.
         });
     }
-
-});
-app.listen(3000); //localhost:80으로 서버에 접속. 자신은 3000을 들을 준비가 되어있음
+app.listen(5502 ); //localhost:80으로 서버에 접속. 자신은 3000을 들을 준비가 되어있음
 
 
 var connInfo = {

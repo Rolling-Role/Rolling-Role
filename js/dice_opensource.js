@@ -36,26 +36,23 @@ var RandomNumber = function(){
 };
 function rolling(n){
   dice[n].classList.add(RandomNumber());
+  setTimeout(dice[1].classList.add(RandomNumber()), 10000);
 //   dice[1].classList.add(RandomNumber());
 }
 // 주사위 자동으로 굴리기
 dice[0].classList.value = "dice";
 dice[1].classList.value = "dice";
-rolling(0);
-rolling(1);
+setTimeout(rolling(0), 1000);
+setTimeout(rolling(1), 1000000);
+
 
 //DB groups테이블에 주사위결과 저장 요청
 function send(res){
     var param = {
         num : res,
-        ip:ip(),
+       // ip:ip(),
     };
-    $.post('/dice_num',param,function(data){ 
-      setTimeout(function(){
-        document.location.href="../html/leaderresult.html";
-      },1700);
-      
-    });
+    
 }
 send(res);
 
